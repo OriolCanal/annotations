@@ -1,135 +1,89 @@
-import ftplib
+import requests
+import urllib.request
+from global_var import logger, annotations_dir
+import os
 import re
-from Bio import Entrez
-from ftputil import FTPHost
-from Bio import SeqIO
-files_list = ["clinvar_20230121_papu.vcf.gz"     ,
-"clinvar_20230121_papu.vcf.gz.md5" ,
-"clinvar_20230121_papu.vcf.gz.tbi" ,
-"clinvar_20230208.vcf.error.txt"   ,
-"clinvar_20230208.vcf.gz"          ,
-"clinvar_20230208.vcf.gz.md5"      ,
-"clinvar_20230208.vcf.gz.tbi"      ,
-"clinvar_20230208_papu.vcf.gz"     ,
-"clinvar_20230208_papu.vcf.gz.md5" ,
-"clinvar_20230208_papu.vcf.gz.tbi" ,
-"clinvar_20230213.vcf.error.txt"   ,
-"clinvar_20230213.vcf.gz"          ,
-"clinvar_20230213.vcf.gz.md5"      ,
-"clinvar_20230213.vcf.gz.tbi"      ,
-"clinvar_20230213_papu.vcf.gz"     ,
-"clinvar_20230213_papu.vcf.gz.md5" ,
-"clinvar_20230213_papu.vcf.gz.tbi" ,
-"clinvar_20230218.vcf.error.txt"   ,
-"clinvar_20230218.vcf.gz"          ,
-"clinvar_20230218.vcf.gz.md5"      ,
-"clinvar_20230218.vcf.gz.tbi"      ,
-"clinvar_20230218_papu.vcf.gz"     ,
-"clinvar_20230218_papu.vcf.gz.md5" ,
-"clinvar_20230218_papu.vcf.gz.tbi" ,
-"clinvar_20230226.vcf.error.txt"   ,
-"clinvar_20230226.vcf.gz"          ,
-"clinvar_20230226.vcf.gz.md5"      ,
-"clinvar_20230226.vcf.gz.tbi"      ,
-"clinvar_20230226_papu.vcf.gz"     ,
-"clinvar_20230226_papu.vcf.gz.md5" ,
-"clinvar_20230226_papu.vcf.gz.tbi" ,
-"clinvar_20230305.vcf.error.txt"   ,
-"clinvar_20230305.vcf.gz"          ,
-"clinvar_20230305.vcf.gz.md5"      ,
-"clinvar_20230305.vcf.gz.tbi"      ,
-"clinvar_20230305_papu.vcf.gz"     ,
-"clinvar_20230305_papu.vcf.gz.md5" ,
-"clinvar_20230305_papu.vcf.gz.tbi"]
+from errors import FileAlreadyExists
+
+
 
 class Clinvar:
-    def __init__(self):
-        self.ftp_url = "https://ftp.ncbi.nlm.nih.gov/"
-        self.ftp_weekly_release= f"{self.ftp_url}pub/clinvar/vcf_GRCh37/weekly/"
-        self.ftp = ftplib.FTP(self.ftp_url)
-
-
+    ncbi_url =  "https://ftp.ncbi.nlm.nih.gov/"
+    weekly_release_url = "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/weekly/"
+    clinvar_annotations_dir = f"{annotations_dir}/clinvar"
     
-    def obtain_weekly_files(self) -> list:
+    
+    def __init__(self):
+        if not os.path.exists(self.clinvar_annotations_dir):
+            os.mkdir(self.clinvar_annotations_dir)
+
+
+    def get_latest_weekly_date(self) -> int:
         """
         list of files from clinvar weekly directory for genome GRCh37
         
         Return:
-            ftp.nlst() : List of files that are on https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/weekly/
-        """
+            max(matches) : latest date that clinvar have made an update in https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/weekly/
+        """ 
+        response = requests.get(self.weekly_release_url)
+        html = response.content.decode("utf-8")
 
-        self.ftp.cwd(self.ftp_weekly_release)
-        return (self.ftp.nlst())
-    
-    def ftp_quit_connexion(self, ftp_con):
-        self.ftp.quit()
+        pattern = r"clinvar_(\d+).vcf.gz"
+        matches = set(re.findall(pattern, html))
 
-    def get_last_release(self):
-        """
-        From a list of files that are found in the weekly ftp directory,
-        it extracts the latest realease file with extension.vcf.gz and its index file
+        if matches:
+            matches = [int(match) for match in matches]
+            latest_version_date = max(matches)
+            return (latest_version_date)
+        else:
+            return (1)
         
-        Returns:
-            last_file = latest release of clinvar with extension .vcf.gz
-            index_last_file = index of the last file
-        """
+    def get_latest_weekly_files(self) -> list:
+        latest_date = self.get_latest_weekly_date()
+        latest_clinvar_file = f"clinvar_{latest_date}.vcf.gz"
+        latest_tabix_clinvar = f"{latest_clinvar_file}.tbi"
+        return(latest_clinvar_file, latest_tabix_clinvar)
 
-        files_list = self.obtain_weekly_files() 
-        last_date = 0
-        regex = r"clinvar_\d{8}\.vcf\.gz"
-        for file in files_list:
-            match = re.search(regex, file)
-            if match:
-                file_no_ext = file.split(".")[0]
-                date = int(file_no_ext.split("_")[1])
-                if date > last_date:
-                    last_file = file
-        index_last_file = f"{last_file}.tbi"
-        return (last_file, index_last_file)
 
-    def download_weekly_file(self, output_filename, ftp_file):
+    def download_latest_version(self):
+        clinvar_file, tabix_clinvar_file = self.get_latest_weekly_files()
+        clinvar_url = f"https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/weekly/{clinvar_file}"
+        tabix_url = f"https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/weekly/{tabix_clinvar_file}"
+
+        # Retrieve expected file size
+        response = urllib.request.urlopen(clinvar_url)
+        tabix_response = urllib.request.urlopen(tabix_url)
+        expected_clinvar_size = int(response.headers["Content-Length"])
+        expected_tabix_size = int(tabix_response.headers["Content-Length"])
         
-        self.ftp.cwd(self.ftp_weekly_release)
-        with open(output_filename, "wb") as f:
-            self.ftp.retrbinary(f"RETR {ftp_file}", f.write)
+        clinvar_path = f"{self.clinvar_annotations_dir}/{clinvar_file}" 
+        tabix_path = f"{self.clinvar_annotations_dir}/{tabix_clinvar_file}" 
+        
+        # Check if files already exists
+        if os.path.isfile(clinvar_path):
+            logger.critical(f"The file {clinvar_path} already exists, the file won't be downloaded to avoid replacement problems")
+            raise(FileAlreadyExists(clinvar_path, f"You already have the file: {clinvar_path}, the file won't be downloaded to avoid replacement problems"))
 
-    
+        if os.path.isfile(tabix_path):
+            logger.critical(f"The file {tabix_path} already exists, the file won't be downloaded to avoid replacement problems")
+            raise(FileAlreadyExists(tabix_path, f"You already have the file: {tabix_path}, the file won't be downloaded to avoid replacement problems"))
 
-
-# # Define the FTP server URL and the file path
-# ftp_url = "ftp.ncbi.nlm.nih.gov"
-# file_path = "/pub/clinvar/vcf_GRCh37/weekly/"
-
-# # Define the file name you want to download
-# file_name = "clinvar_2022-03-06.vcf.gz"
-
-# # Connect to the FTP server
-# ftp = ftplib.FTP(ftp_url)
-
-# # Change to the directory containing the file
-# ftp.cwd(file_path)
-
-# # Download the file
-# with open(file_name, "wb") as f:
-#     ftp.retrbinary("RETR " + file_name, f.write)
-
-# # Close the FTP connection
-# ftp.quit()
-
-
-
-
-
-
-# # connect to ncbi ftp server
-# print("hey")
-# ftp = ftplib.FTP("ftp.ncbi.nlm.nih.gov")
-# print("ho")
-# ftp.login()
-# print("hu")
-# # navigate to the weekly release clinvar directory for genome grch37
-# ftp.cwd("/pub/clinvar/vcf_GRCh37/weekly/")
-# print(ftp)
-# file_list = ftp.nlst()
-
-# # print (file_list)
+        # Download the clinvar file and checking it has been dowloaded correctly
+        urllib.request.urlretrieve(clinvar_file, clinvar_path)
+        if os.path.exists(clinvar_path) and os.path.getsize(clinvar_path) == expected_clinvar_size:
+            logger.info(f"The clinvar file {clinvar_path} have been downloaded correctly")
+        else:
+            logger.critical(f"Failed to download the clinvar file {clinvar_path}, the expected size of the file is {expected_clinvar_size} bytes \
+                            and the size of the downloaded file is {os.path.getsize(clinvar_path)}")
+        
+        # Download the tabix clinvar file and checking it has been downloaded correctly
+        urllib.request.urlretrieve(tabix_url, tabix_path)
+        if os.path.exists(tabix_path) and os.path.getsize(tabix_path) == expected_clinvar_size:
+            logger.info(f"The clinvar file {tabix_path} have been downloaded correctly")
+        else:
+            logger.critical(f"Failed to download the clinvar file {tabix_path}, the expected size of the file is {expected_clinvar_size} bytes \
+                            and the size of the downloaded file is {os.path.getsize(tabix_path)}")
+        
+clinvar_class = Clinvar()
+latest_date = clinvar_class.get_latest_weekly_date()
+clinvar_class.download_latest_version()

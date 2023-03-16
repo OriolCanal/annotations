@@ -50,7 +50,7 @@ class Vep_class:
         version = float(yaml_dict["vep"]["version"])
         return (version)
 
-    def extract_vep_version_realease_github(self) -> float: 
+    def extract_vep_version_release_github(self) -> float: 
         """
         extracte the latest version of vep in github. It extractes it by reading the name of the main branch 
         of the github page of vep: https://github.com/Ensembl/ensembl-vep
@@ -126,6 +126,7 @@ class Vep_class:
             images_versions.append(image_version)
         
         return(images_versions)
+
 
     def extract_vep_version_dockerhub(self):
         """
@@ -262,13 +263,15 @@ class Vep_class:
             return(0)
         
 
-# test_yaml_file = "/home/ocanal/Desktop/annotations/annotation_resources.yaml"
-# yaml_file_class = Yaml_file(test_yaml_file)
-# yaml_dict = yaml_file_class.parse_yaml()
-# vep_class = Vep_class()
-# pipeline_version = vep_class.extract_vep_version_pipeline(yaml_dict)
-# version_realease= vep_class.extract_vep_version_realease()
-# print (f"version release : {type(version_realease)}")
-# print (f"pipeline version: {type(pipeline_version)}")
+test_yaml_file = "/home/ocanal/Desktop/annotations/annotation_resources.yaml"
+yaml_file_class = Yaml_file(test_yaml_file)
+yaml_dict = yaml_file_class.parse_yaml()
+vep_class = Vep_class()
+pipeline_version = vep_class.extract_vep_version_pipeline(yaml_dict)
+version_realease= vep_class.extract_vep_version_release_github()
+docker_release, docker_version  = vep_class.extract_vep_version_dockerhub()
+print (f"{docker_version = }")
+print (f"{version_realease = }")
+print (f"{type(pipeline_version) = }")
 
-# vep_class.install_docker_vep_version(version_realease)
+vep_class.install_docker_vep_version(docker_release)
