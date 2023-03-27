@@ -3,7 +3,7 @@ from annotations_yaml import Yaml_file, Yaml_dict
 import subprocess
 import docker 
 import json
-from global_var import logger
+from global_var import logging
 from datetime import datetime
 import re
 
@@ -97,7 +97,7 @@ class Vep_class:
         image_list = client.images.list(name=self.vep_repo)
 
         # order the tags (newest first)
-        logger.info(f"You have the following version of vep docker with the following images objects {image_list}")
+        logging.info(f"You have the following version of vep docker with the following images objects {image_list}")
         return(image_list)
         
     
@@ -121,7 +121,7 @@ class Vep_class:
                 if index != -1:
                     image_version = "latest"
             else:
-                logger.critical(f"It has not been possible to obtain a float or latest from docker image: {image_obj}")
+                logging.critical(f"It has not been possible to obtain a float or latest from docker image: {image_obj}")
                 raise ValueError(f"It has not been possible to obtain a float or latest from docker image: {image_obj}")
             images_versions.append(image_version)
         
@@ -147,7 +147,7 @@ class Vep_class:
         print (latest_tag)
         version = float(latest_tag.split('_')[1])
 
-        logger.info(f"The latest version of vep in dockerhub is {version}")
+        logging.info(f"The latest version of vep in dockerhub is {version}")
 
         # Print the results
         return (latest_tag, version)
@@ -169,11 +169,11 @@ class Vep_class:
 
         #transform the versions to floats:
         if float(release_version) > float(pipeline_version):
-            logger.critical(f"We are not using the latest version of vep: \
+            logging.critical(f"We are not using the latest version of vep: \
             \nenvironment image v.: {pipeline_version} \nDockerHub image v.: {release_version}")
             return(True)
         else:
-            logger.info(f"You are using the latest version of vep that can be found in DockerHub")
+            logging.info(f"You are using the latest version of vep that can be found in DockerHub")
             return(False)
 
     
@@ -222,10 +222,10 @@ class Vep_class:
 
         # verify that the image has been downloaded 
         if client.images.get(f"{image_name}:{release_tag}"):
-            logger.info(f"a new image of docker will be pulled: {release_tag}")
+            logging.info(f"a new image of docker will be pulled: {release_tag}")
             return(0)
         else:
-            logger.critical(f"Error: Failed to download {image_name}:{release_tag}")
+            logging.critical(f"Error: Failed to download {image_name}:{release_tag}")
             raise(ValueError(f"Error: Failed to download {image_name}:{release_tag}"))
 
     
@@ -254,24 +254,26 @@ class Vep_class:
             result = subprocess.run(["docker images", "-q", f"{image_name}:{image_tag}"])
             print (f"resutl: {result}")
             if not result.stdout:
-                logger.info(f"VEP image with tag {image_tag} have been unistalled successfully.")
+                logging.info(f"VEP image with tag {image_tag} have been unistalled successfully.")
                 return (0)
             else:
-                logger.critical(f"VEP image with tag {image_tag} still exists.")
+                logging.critical(f"VEP image with tag {image_tag} still exists.")
                 return(1)
         else:
             return(0)
         
 
-test_yaml_file = "/home/ocanal/Desktop/annotations/annotation_resources.yaml"
-yaml_file_class = Yaml_file(test_yaml_file)
-yaml_dict = yaml_file_class.parse_yaml()
-vep_class = Vep_class()
-pipeline_version = vep_class.extract_vep_version_pipeline(yaml_dict)
-version_realease= vep_class.extract_vep_version_release_github()
-docker_release, docker_version  = vep_class.extract_vep_version_dockerhub()
-print (f"{docker_version = }")
-print (f"{version_realease = }")
-print (f"{type(pipeline_version) = }")
 
-vep_class.install_docker_vep_version(docker_release)
+if "__main__" == __name__:
+    test_yaml_file = "/home/ocanal/Desktop/annotations/annotation_resources.yaml"
+    yaml_file_class = Yaml_file(test_yaml_file)
+    yaml_dict = yaml_file_class.parse_yaml()
+    vep_class = Vep_class()
+    pipeline_version = vep_class.extract_vep_version_pipeline(yaml_dict)
+    version_realease= vep_class.extract_vep_version_release_github()
+    docker_release, docker_version  = vep_class.extract_vep_version_dockerhub()
+    print (f"{docker_version = }")
+    print (f"{version_realease = }")
+    print (f"{type(pipeline_version) = }")
+
+    vep_class.install_docker_vep_version(docker_release)

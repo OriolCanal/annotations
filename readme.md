@@ -1,5 +1,10 @@
 # DATABASES
 
+
+## YAML
+
+In annotation_resources_v0.0.yaml the file location needs to be set to /home/gencardio/Desktop/ANN_DIR for ann_dir, yaml_file and yaml_dir
+
 ## CLINVAR
 
 Clinvar updates every monday and a new release is uploaded here:

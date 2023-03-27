@@ -3,6 +3,10 @@ ann_dir: /home/gencardio/Desktop/ANN_DIR
 missense_predictors: ['sift','polyphen2','mutationtaster2','provean','fathmm','revel','mutpred']
 splicing_predictors: ['cadd','spliceai','maxentscan','dbscsnv']
 genomewide_predictors: ['cadd','ncer']
+yaml:
+  version: 0.00
+  dirname: yaml
+  hg19: annotation_resources_v0.0.yaml
 vep:
   version: 105
   resource_name: VEP
@@ -11,6 +15,12 @@ vep:
   hg38: input
   input: input
   output: output
+clinvar:
+  version: 20230310
+  resource_name: clinvar
+  dirname: clinvar
+  hg19: hg19/clinvar_20230310.vcf.gz
+  hg38: hg38/
 gene_synonyms:
   version: 1
   resource_name: gene_synonyms
@@ -49,25 +59,25 @@ gnomad_sv:
   hg38: hg38/
 # In-silico predictors
 cadd:
-  version: 1.6
+  version: 1.5
   resource_name: CADD
   dirname: CADD
   hg19: hg19/1.6/whole_genome_SNVs.tsv.gz
   hg38: hg38/
 dbnsfp:
-  version: 4.1
+  version: 4.0
   resource_name: dbNSFP
   dirname: dbNSFP
   hg19: hg19/dbNSFP4.1a_grch37.gz
   hg38: hg38/
 spliceai_snv:
-  version:
+  version: 0
   resource_name: spliceAI
   dirname: spliceAI
   hg19: hg19/spliceai_scores.raw.snv.hg19.vcf.gz
   hg38: hg38/
 spliceai_indel:
-  version:
+  version: 0
   resource_name: spliceAI
   dirname: spliceAI
   hg19: hg19/spliceai_scores.raw.indel.hg19.vcf.gz
@@ -99,7 +109,7 @@ cancer_hotspots:
   hg19: hg19/hotspots_v2.xls
   hg38: hg38/
 civic:
-  version:
+  version: 14_01_2023
   resource_name: CIViC
   dirname: CIViC
   hg19: hg19/

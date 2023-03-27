@@ -1,7 +1,7 @@
 import requests
 import re
 import urllib.request
-from global_var import logger, annotations_dir
+from global_var import logging, annotations_dir
 import os
 from errors import FileAlreadyExists
 
@@ -17,7 +17,7 @@ class CADD:
             os.mkdir(self.cadd_annotations_dir)
 
     def get_pipeline_version(self, yaml_dict) -> float:
-        return(float(yaml_dict["cadd"]["version"]))
+        return (float(yaml_dict["cadd"]["version"]))
 
 
     def get_CADD_released_versions(self) -> list:
@@ -37,7 +37,7 @@ class CADD:
             version_numbers = [float(match) for match in matches]
             print(f"There are the following CADD versions: {version_numbers}")
         else:
-            logger.critical("No versions have been found in the CADD downloads webpage: https://cadd.gs.washington.edu/download \n \
+            logging.critical("No versions have been found in the CADD downloads webpage: https://cadd.gs.washington.edu/download \n \
                             The script searches for Developmental release: vx.x in the html")
 
         return(version_numbers)
@@ -79,19 +79,19 @@ class CADD:
         
         # Check if the files already exist
         if os.path.isfile(output_folder_path):
-            logger.critical(f"The file {output_file_path} already exists, the file won't be downloaded to avoid replacement problems")
+            logging.critical(f"The file {output_file_path} already exists, the file won't be downloaded to avoid replacement problems")
             raise(FileAlreadyExists(output_folder_path, f"You already have the file: {output_file_path}, the file won't be downloaded to avoid replacement problems"))
 
         if os.path.isfile(output_tabix_file_path):
-            logger.critical(f"The file {output_tabix_file_path} already exists, the file won't be downloaded to avoid replacement problems")
+            logging.critical(f"The file {output_tabix_file_path} already exists, the file won't be downloaded to avoid replacement problems")
             raise(FileAlreadyExists(output_tabix_file_path, f"You already have the file: {output_tabix_file_path}, the file won't be downloaded to avoid replacement problems"))
 
         # Download the whole_genome_SNVs.tsv.gz file
         urllib.request.urlretrieve(url_file, output_file_path)
         if os.path.exists(output_file_path) and os.path.getsize(output_file_path) == expected_file_size:
-            logger.info(f"The CADD version {version} have been downloaded correctly")
+            logging.info(f"The CADD version {version} have been downloaded correctly")
         else:
-            logger.critical(f"Failed to download the CADD file of version {version}, the expected size of the file is {expected_file_size} bytes \
+            logging.critical(f"Failed to download the CADD file of version {version}, the expected size of the file is {expected_file_size} bytes \
                             and the size of the downloaded file is {os.path.getsize(output_file_path)}")
         
         # tabix file
@@ -101,10 +101,10 @@ class CADD:
         tabix_path = f"{self.cadd_annotations_dir}/{tabix_file_name}"
         urllib.request.urlretrieve(tabix_url_file, tabix_path)
         if os.path.exists(tabix_path) and os.path.getsize(tabix_path) == tabix_expected_file_size:
-            logger.info(f"The CADD tabix file of version {version} have been downloaded correctly")
+            logging.info(f"The CADD tabix file of version {version} have been downloaded correctly")
             return(file_name, tabix_path)
         else:
-            logger.critical(f"Failed to download the CADD tabix file of version {version}, the expected size of the file is {tabix_expected_file_size} bytes \
+            logging.critical(f"Failed to download the CADD tabix file of version {version}, the expected size of the file is {tabix_expected_file_size} bytes \
                             and the size of the downloaded file is {os.path.getsize(tabix_path)}")
             return(1)
         
