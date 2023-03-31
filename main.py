@@ -20,7 +20,7 @@ databases_release = {}
 Yaml_class = Yaml_file(yaml_file)
 initial_yaml_dict = Yaml_class.parse_yaml()
 Yaml_dict_class = Yaml_dict(initial_yaml_dict)
-print(f"{type(initial_yaml_dict) = }")
+print(f"type initial yaml dict : {type(initial_yaml_dict)}")
 
 
 # VARIANT EFFECT PRDICTOR (VEP)
@@ -150,7 +150,7 @@ if args.spliceai:
     current_spliceai_v = spliceai_class.get_last_version()
     pipeline_snv_v = Yaml_dict_class.get_database_version("spliceai_snv")
     pipeline_indel_v = Yaml_dict_class.get_database_version("spliceai_indel")
-    if (version.parse(str(current_spliceai_v)) > version.parse(str(pipeline_snv_v)) or version.parse(str(current_spliceai_v)) > version.parse(str(pipeline_indel_v)):
+    if (version.parse(str(current_spliceai_v)) > version.parse(str(pipeline_snv_v)) or (version.parse(str(current_spliceai_v)) > version.parse(str(pipeline_indel_v)))):
         logging.info(f"A new release of SpliceAI snv version is available: v:{current_spliceai_v} \n\
                      If you want to download the new version go to this url: \n\
                      https://basespace.illumina.com/projects/66029966")
@@ -183,8 +183,8 @@ if args.civic:
 # CREATING NEW YAML FILE
 
 end_yaml_dict = Yaml_dict_class.get_yaml_dict()
-print(f"{Yaml_dict_class.initial_dict = }")
-print(f"{end_yaml_dict = }")
+print(f"yaml dict class.initial_dict: {Yaml_dict_class.initial_dict}")
+print(f"end_yaml_dict: {end_yaml_dict}")
 if Yaml_dict_class.compare_dict_changes():
     Yaml_dict_class.dict_to_yaml()
     logging.info(f"The yaml file has been modified and a new version: {Yaml_dict_class.new_version} will be created")

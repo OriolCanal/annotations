@@ -272,8 +272,8 @@ if "__main__" == __name__:
     pipeline_version = vep_class.extract_vep_version_pipeline(yaml_dict)
     version_realease= vep_class.extract_vep_version_release_github()
     docker_release, docker_version  = vep_class.extract_vep_version_dockerhub()
-    print (f"{docker_version = }")
-    print (f"{version_realease = }")
-    print (f"{type(pipeline_version) = }")
+    print (f"docker version : {docker_version}")
+    print (f"version_release = {version_realease}")
+    print (f"type pipeline_version = {type(pipeline_version)}")
 
     vep_class.install_docker_vep_version(docker_release)

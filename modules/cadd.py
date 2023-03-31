@@ -114,5 +114,5 @@ if "__main__" == __name__:
 
     released_versions = cadd_class.get_CADD_released_versions()
     latest_version = cadd_class.get_last_version()
-    print(f"{latest_version = }")
+    print(f"latest_version = {latest_version}")
     cadd_class.download_version(latest_version)

@@ -1,3 +1,54 @@
+# To take into account:
+The pipeline should detect the last yaml file used in the server where Bernat has the pipeline, so I should download the yaml file from its server and extract the versions used from there as a first step of the pipeline (TO BE DONE: SHOULD KNOW THE IP).
+
+When installing in a new server, we should change the sys.path.append to where the script is executed
+
+Crete a docker group to give permissions to docker api:
+
+```
+sudo gpasswd -a $USER docker
+newgrp docker
+```
+## Give Github and email credentials
+You should give as environmental variables the github token and the email token:
+
+```
+export github_token=<Your_github_token>
+export pwd_bioinf=<email_token>
+``` 
+
+The email token can be found in email sended by ocanal@idigbi.org with the following subject: email bioinformàtica bioinformaticaudmmp@gmail.com
+
+# install gsutil
+
+Download the linux 64-bit archive file:
+
+```
+curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-423.0.0-linux-x86_64.tar.gz
+```
+
+Extract the contents:
+```
+tar -xf google-cloud-cli-423.0.0-linux-x86.tar.gz
+```
+
+Run the installation script:
+```
+./google-cloud-sdk/install.sh
+```
+
+
+# Requeriments
+
+docker_py==1.10.6
+packaging==20.1
+PyGithub==1.58.1
+pytest==5.3.5
+PyYAML==6.0
+requests==2.28.2
+slack_sdk==3.20.2
+
+
 # DATABASES
 
 

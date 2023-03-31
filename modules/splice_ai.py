@@ -2,8 +2,9 @@
 from global_var import logging, annotations_dir, get_y_n_from_user
 from packaging import version
 from github import Github
+import os
 
-
+github_token = os.environ.get("pwd_github")
 class SpliceAI:
 
 
@@ -16,7 +17,7 @@ class SpliceAI:
         # response = requests.get(self.github_tags_url)
         # html = response.content.decode("utf-8")
         # print(html)
-        g = Github("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")
+        g = Github(github_token)
         repo = g.get_repo("illumina/SpliceAI")
         tags = repo.get_tags()
         version_list = []
@@ -38,7 +39,7 @@ class SpliceAI:
         return (last_version)
     
     def download_last_version(self):
-        get_y_n_from_user(f"BEFORE DOWNLOADING THE FILE: Check that the new version of spliceAI database has benn released in BaseSpace: check the files of the following project: \n \
+        get_y_n_from_user(f"BEFORE DOWNLOADING THE FILE:, check that the new version of spliceAI database has benn released in BaseSpace: check the files of the following project: \n \
                           https://basespace.illumina.com/analyses/ \n\
                           ")
 

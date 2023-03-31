@@ -112,7 +112,7 @@ class Yaml_dict(Yaml):
         self.change_yaml_version()
         self.change_yaml_filename()
         yaml_dir = self.annotations_dir + "/" + self.get_database_dir("yaml") + "/hg19"
-        print(f"{yaml_dir = }")
+        print(f"yaml_dir : {yaml_dir}")
         new_yaml_filename = f"{yaml_dir}/annotations_resources_v{self.new_version}.yaml"
         with open(new_yaml_filename, "w") as yaml_file:
             yaml.dump(self.yaml_dict, yaml_file, sort_keys=False)

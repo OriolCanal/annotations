@@ -81,31 +81,35 @@ class Clinvar:
                                 and the size of the downloaded file is {os.path.getsize(tabix_path)}")
 
     def trial_vep_clinvar(self, clinvar_file):
-        reference_genome_path = "/home/ocanal/vep_data/fasta_file/grch37/"
-        reference_genome_file = "GRCh37.p13.genome.fa"
+        reference_genome_path = "/home/ocanal/vep_data/fasta_file/"
+        reference_genome_file = "hg19.fa"
         clinvar_atributes = "ALLELEID,CLNDN,CLNDISDB,CLNHGVS,CLNREVSTAT,CLNSIG,CLNSIGCONF,CLNSIGINCL,CLNVC,CLNVCSO,CLNVI,DBVARID,GENEINFO,MC,ORIGIN,RS,SSR"
-        vep = "ensemblorg/ensembl-vep"
+        vep = "ensemblorg/ensembl-vep:release_108.0"
         vcf_file_dir = "/home/ocanal/Desktop/annotations/vcf_trial/"
-        output_vcf = "output_vcf.vcf"
-        vcf_file = "RB21942_9999999.vcf"
+        output_vcf = "output_vcf"
+        vcf_file = "RB19881_9999999.vcf"
         vep_cmd = f"docker run \
-                -v {vcf_file_dir}:/work_data \
+                -v {vcf_file_dir}:/work_data:Z \
                 -v {reference_genome_path}:/reference \
-                -v $HOME/vep_data:/opt/vep/.vep:Z \
+                -v $HOME/ANN_DIR:/opt/vep/.vep:Z \
                 -it {vep} vep \
                 --cache --offline \
                 --fasta /reference/{reference_genome_file} \
                 --format vcf \
+                --tab \
                 --assembly GRCh37 \
                 --hgvsg --everything --force_overwrite \
-                --custom  {self.clinvar_annotations_dir}/{clinvar_file},vcf,exact,0,{clinvar_atributes}\
                 -i /work_data/{vcf_file} \
-                -o /work_data/{output_vcf}"
-        print(f"{output_vcf = }")
+                --fasta /reference/{reference_genome_file} \
+                --plugin SpliceAI,snv=/opt/vep/.vep/spliceAI/hg19/spliceai_scores.raw.snv.hg19.vcf.gz,indel=/opt/vep/.vep/spliceAI/hg19/spliceai_scores.raw.indel.hg19.vcf.gz \
+                --custom  /opt/vep/.vep/clinvar/hg19/{clinvar_file},vcf,exact,0,{clinvar_atributes}\
+                -o /work_data/annotations/{output_vcf}"
+        print(f"output_vcf = {output_vcf}")
         run = subprocess.run(vep_cmd, shell=True)
-        print(f"{run = }")
+        print(f"run = {run}")
 
 if "__main__" == __name__:
     clinvar_class = Clinvar()
-    latest_date = clinvar_class.get_latest_weekly_date()
-    clinvar_class.download_latest_version()
+    #latest_date = clinvar_class.get_latest_weekly_date()
+    #clinvar_class.download_latest_version()
+    clinvar_class.trial_vep_clinvar("clinvar_20230311.vcf.gz")

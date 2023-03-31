@@ -961,3 +961,157 @@ DockerHub image v.: 109.3
         actual spliceAI pipeline version: 1.3.0
         last spliceAI release version: 1.3.1
         If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-28 11:05:14,324 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 11:05:14,366 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 11:05:14,367 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 11:05:14,434 - INFO - The last version of gnomad is 0
+2023-03-28 11:05:14,434 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-28 11:05:21,054 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 11:17:47,048 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 11:17:47,082 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 11:17:47,083 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 11:17:47,143 - INFO - The last version of gnomad is 0
+2023-03-28 11:17:47,144 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-28 11:17:48,484 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 11:25:48,102 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 11:25:48,143 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 11:25:48,143 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 11:25:48,205 - INFO - The last version of gnomad is 0
+2023-03-28 11:25:48,205 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-28 11:25:49,707 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 11:25:50,368 - INFO - The last release for spliceAI is 1.3.1
+2023-03-28 11:25:50,369 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-28 11:27:24,800 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 11:27:24,831 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 11:27:24,831 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 11:27:24,887 - INFO - The last version of gnomad is 0
+2023-03-28 11:27:24,887 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-28 11:27:26,105 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 11:27:26,688 - INFO - The last release for spliceAI is 1.3.1
+2023-03-28 11:27:26,688 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-28 11:30:25,998 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 11:30:26,030 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 11:30:26,031 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 11:30:26,092 - INFO - The last version of gnomad is 0
+2023-03-28 11:30:26,093 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-28 11:30:27,403 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 11:30:27,974 - INFO - The last release for spliceAI is 1.3.1
+2023-03-28 11:30:27,974 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-28 11:37:37,364 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 11:37:37,396 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 11:37:37,396 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 11:37:37,461 - INFO - The last version of gnomad is 0
+2023-03-28 11:37:37,462 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-28 11:37:39,474 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 11:37:40,075 - INFO - The last release for spliceAI is 1.3.1
+2023-03-28 11:37:40,076 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-28 11:38:13,269 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 11:38:13,301 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 11:38:13,301 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 11:38:13,357 - INFO - The last version of gnomad is 0
+2023-03-28 11:38:13,357 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-28 11:38:14,507 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 11:38:15,061 - INFO - The last release for spliceAI is 1.3.1
+2023-03-28 11:38:15,061 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-28 13:59:51,740 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 13:59:51,770 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 13:59:51,771 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 13:59:51,826 - INFO - The last version of gnomad is 0
+2023-03-28 13:59:51,827 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-28 13:59:53,061 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 13:59:53,775 - INFO - The last release for spliceAI is 1.3.1
+2023-03-28 13:59:53,776 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-28 16:15:12,965 - INFO - The last version of gnomad is 0
+2023-03-28 16:32:13,933 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 16:32:13,979 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 16:32:13,980 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 16:32:15,823 - INFO - The last version of gnomad is 3.1.3
+2023-03-28 16:32:15,823 - INFO -  A new version of gnomAD is available:
+        gnomAD pipelinve version = 2.1.1
+        gnomAD last release version = 3.1.3
+        If you want to install the latest version of gnomad go to the following URL: https://gnomad.broadinstitute.org/downloads/
+2023-03-28 16:32:17,804 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 16:32:18,313 - INFO - The last release for spliceAI is 1.3.1
+2023-03-28 16:32:18,313 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966

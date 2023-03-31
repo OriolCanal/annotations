@@ -3,8 +3,8 @@ import argparse
 import sys
 import re
 import os
-from slack_sdk import WebClient
-from slack_sdk.errors import SlackApiError
+# from slack_sdk import WebClient
+# from slack_sdk.errors import SlackApiError
 
 parser = argparse.ArgumentParser(description="Program that automatically detects if there is a new version of different vep-related databases.")
 parser.add_argument("--CADD", required=False, action="store_true", help="Detect if a new release of CADD exists")
@@ -18,20 +18,20 @@ parser.add_argument("--force", action="store_true", help="Download files without
 args = parser.parse_args()
 
 
-def send_slack(message: str):
-    client = WebClient(token="xoxb-5028238476320-5001657632341-yddZjBNRkBEZkoKp0I6dLSHh")
+# def send_slack(message: str):
+#     client = WebClient(token="xoxb-5028238476320-5001657632341-yddZjBNRkBEZkoKp0I6dLSHh")
 
-    try:
-        response = client.chat_postMessage(
-            channel="#annotations",
-            text=message
-        )
-        print("message sent: ", response["ts"])
-        return (0)
+#     try:
+#         response = client.chat_postMessage(
+#             channel="#annotations",
+#             text=message
+#         )
+#         print("message sent: ", response["ts"])
+#         return (0)
 
-    except SlackApiError as e:
-        print("Error sending message: {}".format(e))
-        return (1)
+#     except SlackApiError as e:
+#         print("Error sending message: {}".format(e))
+#         return (1)
 
 
 def get_logging():
@@ -76,12 +76,12 @@ def get_last_yaml_file(directory="/home/ocanal/ANN_DIR/yaml/hg19"):
         if file.endswith(".yaml"):
             pattern = r"v(\d+.\d+).yaml"
             match = float(re.findall(pattern, file)[0])
-            print(f"{match = }")
+            print(f"match = {match}")
             if match > last_version:
                 last_version = match
-            print (f"{match = }")
+            print (f"match = {match}")
     last_file = f"{directory}/annotations_resources_v{last_version}.yaml"
-    print(f"{last_version = }")
+    print(f"last version = {last_version}")
     return (last_file)
 
 yaml_file = get_last_yaml_file()

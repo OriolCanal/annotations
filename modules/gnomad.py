@@ -21,7 +21,7 @@ class Gnomad():
 
         ls_command = f"gsutil ls {self.gsutil_path}"
         result = subprocess.run(ls_command.split(), stdout=subprocess.PIPE)
-        print(f"{result = }")
+        print(f"result = {result}")
         output = result.stdout.decode("utf-8")
         paths = output.strip().split("\n")
 
@@ -42,6 +42,9 @@ class Gnomad():
             if version.parse(str(release_v)) > version.parse(str(last_v)):
                 last_v = release_v
         logging.info(f"The last version of gnomad is {last_v}")
+        if last_v == 0:
+            last_v = "Check the script because no GnomAD versions have been found"
+            
         return (last_v)
 
     def filter_gnomad(self):
@@ -56,8 +59,8 @@ class Gnomad():
         file_exists_cmd = f"gsutil -q stat {gsutil_abs_path}"
 
         result = subprocess.run(file_exists_cmd, shell=True, capture_output=True)
-        print(f"{result.stdout = }")
-        print(f"{result.stderr = }")
+        print(f"result-stdout = {result.stdout}")
+        print(f"result.stderr = {result.stderr}")
 
     def download_release_file2(self):
         bucket = "gnomad-public"
