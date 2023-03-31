@@ -1,0 +1,1117 @@
+2023-03-03 10:42:11,152 - CRITICAL - We are not using the latest version of vep:                             
+environment image v.: 105 
+DockerHub image v.: 109.3
+2023-03-03 10:51:23,383 - CRITICAL - We are not using the latest version of vep:                             
+environment image v.: 105 
+DockerHub image v.: 109.3
+2023-03-03 10:56:43,529 - CRITICAL - We are not using the latest version of vep:                             
+environment image v.: 105 
+DockerHub image v.: 109.3
+2023-03-03 10:57:31,350 - CRITICAL - We are not using the latest version of vep:                             
+environment image v.: 105 
+DockerHub image v.: 109.3
+2023-03-03 11:07:54,951 - CRITICAL - We are not using the latest version of vep:                             
+environment image v.: 105 
+DockerHub image v.: 109.3
+2023-03-03 14:00:23,979 - CRITICAL - We are not using the latest version of vep:                             
+environment image v.: 105 
+DockerHub image v.: 109.3
+2023-03-06 10:36:13,872 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 10:37:15,159 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 10:42:06,312 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 10:43:02,405 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 10:43:45,085 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 10:44:02,940 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 10:44:51,800 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 10:50:03,826 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 10:50:20,268 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 10:50:50,518 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 10:51:50,986 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 11:09:50,488 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 11:10:22,582 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 11:12:32,540 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 11:12:53,793 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 11:13:15,652 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 11:13:39,220 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 11:13:41,853 - CRITICAL - Failed to uninstall VEP image ensemblorg/ensembl-vep:release_109.2
+2023-03-06 11:13:43,466 - CRITICAL - Failed to uninstall VEP image ensemblorg/ensembl-vep:release_106.1
+2023-03-06 11:13:51,043 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 11:57:15,762 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 11:59:01,026 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 11:59:59,908 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 12:02:47,442 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 12:05:28,536 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 12:06:04,255 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 12:07:31,788 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 12:20:30,620 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 12:20:32,178 - CRITICAL - Failed to uninstall VEP image ensemblorg/ensembl-vep:release_109.3
+2023-03-06 12:21:50,101 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 12:21:51,628 - CRITICAL - Failed to uninstall VEP image ensemblorg/ensembl-vep:release_109.3
+2023-03-06 12:24:18,854 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 12:24:20,368 - CRITICAL - Failed to uninstall VEP image ensemblorg/ensembl-vep:release_109.3
+2023-03-06 12:24:55,670 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 12:38:05,813 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 12:38:07,319 - CRITICAL - Failed to uninstall VEP image ensemblorg/ensembl-vep:release_109.3
+2023-03-06 12:40:03,869 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 12:40:03,869 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 12:40:22,557 - CRITICAL - Failed to uninstall VEP image ensemblorg/ensembl-vep:release_109.2
+2023-03-06 12:40:22,557 - CRITICAL - Failed to uninstall VEP image ensemblorg/ensembl-vep:release_109.2
+2023-03-06 12:40:22,558 - WARNING - The docker image of vep with tag release_109.2 will be desinstalled
+2023-03-06 12:40:22,558 - WARNING - The docker image of vep with tag release_109.2 will be desinstalled
+2023-03-06 12:40:24,278 - CRITICAL - Failed to uninstall VEP image ensemblorg/ensembl-vep:release_106.1
+2023-03-06 12:40:24,278 - CRITICAL - Failed to uninstall VEP image ensemblorg/ensembl-vep:release_106.1
+2023-03-06 12:40:24,278 - WARNING - The docker image of vep with tag release_106.1 will be desinstalled
+2023-03-06 12:40:24,278 - WARNING - The docker image of vep with tag release_106.1 will be desinstalled
+2023-03-06 12:44:15,626 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 12:48:04,040 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 12:50:03,707 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 12:55:16,381 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 12:57:14,755 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-06 13:46:48,794 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-16 09:08:27,793 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-16 09:08:27,793 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-16 17:09:04,539 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-16 17:09:05,910 - INFO - a new image of docker will be pulled: release_109.3
+2023-03-16 17:09:09,133 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 09:16:20,846 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-17 09:16:22,790 - INFO - a new image of docker will be pulled: release_109.3
+2023-03-17 09:17:22,147 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-17 09:17:23,521 - INFO - a new image of docker will be pulled: release_109.3
+2023-03-17 09:17:38,572 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-17 09:17:39,839 - INFO - a new image of docker will be pulled: release_109.3
+2023-03-17 10:19:10,658 - INFO - Downloading the clinvar file: clinvar_20230311.vcf.gz
+2023-03-17 10:20:04,814 - INFO - Downloading the clinvar file: clinvar_20230311.vcf.gz
+2023-03-17 10:21:02,046 - INFO - The clinvar file /home/ocanal/ANN_DIR/clinvar/clinvar_20230311.vcf.gz have been downloaded correctly
+2023-03-17 10:21:02,046 - INFO - Downloading tabix clinvar file: clinvar_20230311.vcf.gz.tbi
+2023-03-17 10:21:03,094 - INFO - The clinvar file /home/ocanal/ANN_DIR/clinvar/clinvar_20230311.vcf.gz.tbi have been downloaded correctly
+2023-03-17 10:22:19,508 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 10:22:52,990 - INFO - Downloading the clinvar file: clinvar_20230311.vcf.gz
+2023-03-17 10:23:47,138 - INFO - The clinvar file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz have been downloaded correctly
+2023-03-17 10:23:47,138 - INFO - Downloading tabix clinvar file: clinvar_20230311.vcf.gz.tbi
+2023-03-17 10:23:48,186 - INFO - The clinvar file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi have been downloaded correctly
+2023-03-17 10:28:29,851 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 10:30:02,161 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 10:30:54,714 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 11:23:29,762 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230311
+2023-03-17 11:23:59,547 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230311
+2023-03-17 11:24:19,260 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230311
+2023-03-17 11:27:35,729 - INFO - The new files won't be actualized to the last released version 20230311
+2023-03-17 12:03:19,539 - INFO - The clinvar files won't be actualized to the last released version 20230311
+2023-03-17 12:03:25,847 - INFO - Downloading the clinvar file: clinvar_20230311.vcf.gz
+2023-03-17 12:04:19,445 - INFO - The clinvar file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz have been downloaded correctly
+2023-03-17 12:04:19,445 - INFO - Downloading tabix clinvar file: clinvar_20230311.vcf.gz.tbi
+2023-03-17 12:04:20,483 - INFO - The clinvar file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi have been downloaded correctly
+2023-03-17 12:14:29,964 - INFO - The clinvar files won't be actualized to the last released version 20230311
+2023-03-17 12:14:36,442 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 12:14:36,442 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 12:54:00,196 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 12:54:00,197 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 12:54:52,090 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 12:54:52,091 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 12:55:34,596 - INFO - The clinvar files won't be actualized to the last released version 20230311
+2023-03-17 12:55:43,219 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 12:55:43,219 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 12:56:10,625 - INFO - Downloading the clinvar file: clinvar_20230311.vcf.gz
+2023-03-17 12:57:04,381 - INFO - The clinvar file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz have been downloaded correctly
+2023-03-17 12:57:04,381 - INFO - Downloading tabix clinvar file: clinvar_20230311.vcf.gz.tbi
+2023-03-17 12:57:05,425 - INFO - The clinvar file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi have been downloaded correctly
+2023-03-17 12:58:24,261 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 12:58:24,261 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 12:59:45,147 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 12:59:45,148 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 13:56:06,518 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 13:56:06,518 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 13:56:52,723 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 13:56:52,724 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 13:58:47,072 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 13:58:47,073 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 13:59:22,783 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 13:59:22,783 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:00:09,421 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:00:09,421 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:03:40,767 - INFO - The clinvar files won't be actualized to the last released version 20230311
+2023-03-17 14:05:49,119 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:05:49,120 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:06:58,035 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:06:58,035 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:11:30,893 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:11:30,893 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:12:51,383 - INFO - The clinvar files won't be actualized to the last released version 20230311
+2023-03-17 14:14:20,189 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:14:20,189 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:14:35,886 - INFO - The clinvar files won't be actualized to the last released version 20230311
+2023-03-17 14:16:32,270 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:16:32,270 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:16:38,063 - INFO - The clinvar files won't be actualized to the last released version 20230311
+2023-03-17 14:28:52,168 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:28:52,169 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:29:21,994 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:29:21,994 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:32:12,912 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:32:12,913 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:34:07,039 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:34:07,040 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:34:19,488 - INFO - The clinvar files won't be actualized to the last released version 20230311
+2023-03-17 14:34:55,847 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:34:55,847 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:35:56,732 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:35:56,733 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:36:07,360 - INFO - The clinvar files won't be actualized to the last released version 20230311
+2023-03-17 14:36:45,985 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:36:45,985 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:40:28,489 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:40:28,489 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:43:52,505 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:43:52,506 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:50:21,200 - INFO - The clinvar files won't be actualized to the last released version 20230311
+2023-03-17 14:50:26,613 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:50:26,614 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:53:19,522 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:53:19,523 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:54:10,218 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:54:10,218 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:54:46,435 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:54:46,436 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:55:04,859 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:55:04,859 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:55:13,103 - INFO - The clinvar files won't be actualized to the last released version 20230311
+2023-03-17 14:58:28,665 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:58:28,665 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:58:47,182 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:58:47,182 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:59:42,409 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 14:59:42,409 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 15:00:24,584 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 15:00:24,584 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 15:00:25,298 - INFO - The yaml file has been modified and a new version will be created
+2023-03-17 16:53:13,567 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 16:53:13,567 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 16:56:30,161 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 16:56:30,161 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 17:00:24,310 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 17:00:24,310 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 17:00:25,027 - INFO - The yaml file has been modified and a new version: 1.01 will be created
+2023-03-17 17:01:02,810 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 17:01:02,811 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 17:01:03,569 - INFO - The yaml file has been modified and a new version: 1.01 will be created
+2023-03-17 17:02:22,759 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 17:02:22,759 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230311.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-17 17:02:23,443 - INFO - The yaml file has been modified and a new version: 1.01 will be created
+2023-03-20 09:30:08,717 - INFO - Downloading the clinvar file: clinvar_20230318.vcf.gz
+2023-03-20 09:31:06,455 - INFO - The clinvar file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz have been downloaded correctly
+2023-03-20 09:31:06,455 - INFO - Downloading tabix clinvar file: clinvar_20230318.vcf.gz.tbi
+2023-03-20 09:31:07,812 - INFO - The clinvar file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz.tbi have been downloaded correctly
+2023-03-20 09:31:16,394 - INFO - The yaml file has been modified and a new version: 1.01 will be created
+2023-03-20 09:36:00,343 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-20 09:36:00,344 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-20 09:36:01,087 - INFO - The yaml file has been modified and a new version: 1.01 will be created
+2023-03-20 09:37:25,377 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-20 09:37:25,377 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-20 09:37:26,105 - INFO - The yaml file has been modified and a new version: 1.01 will be created
+2023-03-20 09:38:30,494 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-20 09:38:30,495 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-20 09:38:31,239 - INFO - The yaml file has been modified and a new version: 1.01 will be created
+2023-03-20 10:11:43,226 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-20 10:12:44,360 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-20 10:15:48,025 - INFO - Downloading the clinvar file: clinvar_20230318.vcf.gz
+2023-03-20 10:16:50,442 - INFO - The clinvar file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz have been downloaded correctly
+2023-03-20 10:16:50,442 - INFO - Downloading tabix clinvar file: clinvar_20230318.vcf.gz.tbi
+2023-03-20 10:16:52,146 - INFO - The clinvar file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz.tbi have been downloaded correctly
+2023-03-20 10:16:53,213 - INFO - The yaml file has been modified and a new version: 1.02 will be created
+2023-03-20 10:32:56,007 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-20 10:33:36,170 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-20 10:35:16,144 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-20 10:35:55,108 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-20 10:36:16,009 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-20 10:36:40,969 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-20 10:37:38,782 - INFO - Downloading the clinvar file: clinvar_20230318.vcf.gz
+2023-03-20 10:37:55,456 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-20 10:37:55,456 - INFO - Downloading tabix clinvar file: clinvar_20230318.vcf.gz.tbi
+2023-03-20 10:37:56,610 - INFO - The clinvar file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz.tbi have been downloaded correctly
+2023-03-20 10:38:49,859 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-20 10:38:49,859 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-20 10:40:10,795 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-20 10:40:10,796 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-20 10:41:35,762 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-20 10:41:35,762 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-20 10:42:07,946 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz already exists, the file won't be downloaded to avoid replacement problems
+2023-03-20 10:42:07,946 - CRITICAL - The file /home/ocanal/ANN_DIR/clinvar/hg19/clinvar_20230318.vcf.gz.tbi already exists, the file won't be downloaded to avoid replacement problems
+2023-03-20 10:42:08,686 - INFO - The yaml file has been modified and a new version: 1.03 will be created
+2023-03-20 12:47:53,960 - CRITICAL - NO RELEASES FOR dbNSFP have been found
+2023-03-20 12:50:56,819 - CRITICAL - NO RELEASES FOR dbNSFP have been found
+2023-03-20 12:51:26,262 - CRITICAL - NO RELEASES FOR dbNSFP have been found
+2023-03-20 14:46:38,462 - WARNING - There is a dbNSFP new version that is not indicated in the website in the expected format: ('December 8, 2018', 'v4.0')
+2023-03-20 14:46:38,463 - WARNING - There is a dbNSFP new version that is not indicated in the website in the expected format: ('August 3, 2015', 'v3.0')
+2023-03-20 14:46:38,853 - WARNING - There is a new update that the release date is not written with the format expected: 
+ January 23, 2023
+2023-03-20 14:46:38,853 - WARNING - There is a new update that the release date is not written with the format expected: 
+ July 27, 2021
+2023-03-20 14:46:38,853 - WARNING - There is a new update that the release date is not written with the format expected: 
+ July 14, 2021
+2023-03-20 14:46:38,853 - WARNING - There is a new update that the release date is not written with the format expected: 
+ April 14, 2021
+2023-03-20 14:46:38,853 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 12, 2021
+2023-03-20 14:46:38,853 - WARNING - There is a new update that the release date is not written with the format expected: 
+ Feb 10, 2021
+2023-03-20 14:46:38,853 - WARNING - There is a new update that the release date is not written with the format expected: 
+ Jan 27, 2021
+2023-03-20 14:46:38,853 - WARNING - There is a new update that the release date is not written with the format expected: 
+ June 16, 2020
+2023-03-20 14:46:38,853 - WARNING - There is a new update that the release date is not written with the format expected: 
+ December 5, 2019
+2023-03-20 14:46:38,854 - WARNING - There is a new update that the release date is not written with the format expected: 
+ February 20, 2019
+2023-03-20 14:46:38,854 - WARNING - There is a new update that the release date is not written with the format expected: 
+ December 30, 2018
+2023-03-20 14:46:38,854 - WARNING - There is a new update that the release date is not written with the format expected: 
+ April 12, 2015
+2023-03-20 14:46:38,854 - WARNING - There is a new update that the release date is not written with the format expected: 
+ January 12, 2018
+2023-03-20 14:46:38,854 - WARNING - There is a new update that the release date is not written with the format expected: 
+ August 6, 2017
+2023-03-20 14:46:38,854 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 12, 2017
+2023-03-20 14:46:38,854 - WARNING - There is a new update that the release date is not written with the format expected: 
+ November 30, 2016
+2023-03-20 14:46:38,854 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 20, 2016
+2023-03-20 14:46:38,854 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 30, 2016
+2023-03-20 14:46:38,854 - WARNING - There is a new update that the release date is not written with the format expected: 
+ November 24, 2015
+2023-03-20 14:46:38,854 - WARNING - There is a new update that the release date is not written with the format expected: 
+ October 11, 2015
+2023-03-20 14:46:38,854 - WARNING - There is a new update that the release date is not written with the format expected: 
+ September 4, 2015
+2023-03-20 14:46:38,855 - WARNING - There is a new update that the release date is not written with the format expected: 
+ August 13, 2015
+2023-03-20 14:46:38,855 - WARNING - There is a new update that the release date is not written with the format expected: 
+ June 11, 2015
+2023-03-20 14:46:38,855 - WARNING - There is a new update that the release date is not written with the format expected: 
+ April 12, 2015
+2023-03-20 14:46:38,855 - WARNING - There is a new update that the release date is not written with the format expected: 
+ April 6, 2015
+2023-03-20 14:46:38,855 - WARNING - There is a new update that the release date is not written with the format expected: 
+ February 3, 2015
+2023-03-20 14:46:38,855 - WARNING - There is a new update that the release date is not written with the format expected: 
+ December 16, 2014
+2023-03-20 14:46:38,855 - WARNING - There is a new update that the release date is not written with the format expected: 
+ November 21, 2014
+2023-03-20 14:46:38,855 - WARNING - There is a new update that the release date is not written with the format expected: 
+ Septermber 12, 2014
+2023-03-20 14:46:38,855 - WARNING - There is a new update that the release date is not written with the format expected: 
+ July 26, 2014
+2023-03-20 14:46:38,855 - WARNING - There is a new update that the release date is not written with the format expected: 
+ June 1, 2014
+2023-03-20 14:46:38,855 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 5, 2014
+2023-03-20 14:46:38,855 - WARNING - There is a new update that the release date is not written with the format expected: 
+ Fedruary 12, 2014
+2023-03-20 14:46:38,855 - WARNING - There is a new update that the release date is not written with the format expected: 
+ January 26, 2014
+2023-03-20 14:46:38,856 - WARNING - There is a new update that the release date is not written with the format expected: 
+ January 23, 2014
+2023-03-20 14:46:38,856 - WARNING - There is a new update that the release date is not written with the format expected: 
+ October 3, 2013
+2023-03-20 14:46:38,856 - WARNING - There is a new update that the release date is not written with the format expected: 
+ August 12, 2013
+2023-03-20 14:46:38,856 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 22, 2013
+2023-03-20 14:46:38,856 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 12, 2013
+2023-03-20 14:46:38,856 - WARNING - There is a new update that the release date is not written with the format expected: 
+ November 19, 2012
+2023-03-20 14:46:38,856 - WARNING - There is a new update that the release date is not written with the format expected: 
+ October 27, 2012
+2023-03-20 14:46:38,856 - WARNING - There is a new update that the release date is not written with the format expected: 
+ August 28, 2012
+2023-03-20 14:46:38,856 - WARNING - There is a new update that the release date is not written with the format expected: 
+ July 2, 2012
+2023-03-20 14:46:38,856 - WARNING - There is a new update that the release date is not written with the format expected: 
+ June 2, 2012
+2023-03-20 14:46:38,856 - WARNING - There is a new update that the release date is not written with the format expected: 
+ April 11, 2012
+2023-03-20 14:56:34,672 - WARNING - There is a dbNSFP new version that is not indicated in the website in the expected format: February 18, 2022
+2023-03-20 14:56:34,673 - WARNING - There is a dbNSFP new version that is not indicated in the website in the expected format: April 6, 2021
+2023-03-20 14:56:34,673 - WARNING - There is a dbNSFP new version that is not indicated in the website in the expected format: December 8, 2018
+2023-03-20 14:56:34,674 - WARNING - There is a dbNSFP new version that is not indicated in the website in the expected format: August 3, 2015
+2023-03-20 14:56:34,674 - WARNING - There is a dbNSFP new version that is not indicated in the website in the expected format: February 25, 2013
+2023-03-20 14:56:35,067 - WARNING - There is a new update that the release date is not written with the format expected: 
+ January 23, 2023
+2023-03-20 14:56:35,067 - WARNING - There is a new update that the release date is not written with the format expected: 
+ July 27, 2021
+2023-03-20 14:56:35,067 - WARNING - There is a new update that the release date is not written with the format expected: 
+ July 14, 2021
+2023-03-20 14:56:35,067 - WARNING - There is a new update that the release date is not written with the format expected: 
+ April 14, 2021
+2023-03-20 14:56:35,068 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 12, 2021
+2023-03-20 14:56:35,068 - WARNING - There is a new update that the release date is not written with the format expected: 
+ Feb 10, 2021
+2023-03-20 14:56:35,068 - WARNING - There is a new update that the release date is not written with the format expected: 
+ Jan 27, 2021
+2023-03-20 14:56:35,068 - WARNING - There is a new update that the release date is not written with the format expected: 
+ June 16, 2020
+2023-03-20 14:56:35,068 - WARNING - There is a new update that the release date is not written with the format expected: 
+ December 5, 2019
+2023-03-20 14:56:35,069 - WARNING - There is a new update that the release date is not written with the format expected: 
+ February 20, 2019
+2023-03-20 14:56:35,069 - WARNING - There is a new update that the release date is not written with the format expected: 
+ December 30, 2018
+2023-03-20 14:56:35,069 - WARNING - There is a new update that the release date is not written with the format expected: 
+ April 12, 2015
+2023-03-20 14:56:35,069 - WARNING - There is a new update that the release date is not written with the format expected: 
+ January 12, 2018
+2023-03-20 14:56:35,069 - WARNING - There is a new update that the release date is not written with the format expected: 
+ August 6, 2017
+2023-03-20 14:56:35,069 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 12, 2017
+2023-03-20 14:56:35,070 - WARNING - There is a new update that the release date is not written with the format expected: 
+ November 30, 2016
+2023-03-20 14:56:35,070 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 20, 2016
+2023-03-20 14:56:35,070 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 30, 2016
+2023-03-20 14:56:35,070 - WARNING - There is a new update that the release date is not written with the format expected: 
+ November 24, 2015
+2023-03-20 14:56:35,070 - WARNING - There is a new update that the release date is not written with the format expected: 
+ October 11, 2015
+2023-03-20 14:56:35,071 - WARNING - There is a new update that the release date is not written with the format expected: 
+ September 4, 2015
+2023-03-20 14:56:35,071 - WARNING - There is a new update that the release date is not written with the format expected: 
+ August 13, 2015
+2023-03-20 14:56:35,071 - WARNING - There is a new update that the release date is not written with the format expected: 
+ June 11, 2015
+2023-03-20 14:56:35,071 - WARNING - There is a new update that the release date is not written with the format expected: 
+ April 12, 2015
+2023-03-20 14:56:35,071 - WARNING - There is a new update that the release date is not written with the format expected: 
+ April 6, 2015
+2023-03-20 14:56:35,071 - WARNING - There is a new update that the release date is not written with the format expected: 
+ February 3, 2015
+2023-03-20 14:56:35,072 - WARNING - There is a new update that the release date is not written with the format expected: 
+ December 16, 2014
+2023-03-20 14:56:35,072 - WARNING - There is a new update that the release date is not written with the format expected: 
+ November 21, 2014
+2023-03-20 14:56:35,072 - WARNING - There is a new update that the release date is not written with the format expected: 
+ Septermber 12, 2014
+2023-03-20 14:56:35,072 - WARNING - There is a new update that the release date is not written with the format expected: 
+ July 26, 2014
+2023-03-20 14:56:35,072 - WARNING - There is a new update that the release date is not written with the format expected: 
+ June 1, 2014
+2023-03-20 14:56:35,073 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 5, 2014
+2023-03-20 14:56:35,073 - WARNING - There is a new update that the release date is not written with the format expected: 
+ Fedruary 12, 2014
+2023-03-20 14:56:35,073 - WARNING - There is a new update that the release date is not written with the format expected: 
+ January 26, 2014
+2023-03-20 14:56:35,073 - WARNING - There is a new update that the release date is not written with the format expected: 
+ January 23, 2014
+2023-03-20 14:56:35,073 - WARNING - There is a new update that the release date is not written with the format expected: 
+ October 3, 2013
+2023-03-20 14:56:35,073 - WARNING - There is a new update that the release date is not written with the format expected: 
+ August 12, 2013
+2023-03-20 14:56:35,074 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 22, 2013
+2023-03-20 14:56:35,074 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 12, 2013
+2023-03-20 14:56:35,074 - WARNING - There is a new update that the release date is not written with the format expected: 
+ November 19, 2012
+2023-03-20 14:56:35,074 - WARNING - There is a new update that the release date is not written with the format expected: 
+ October 27, 2012
+2023-03-20 14:56:35,074 - WARNING - There is a new update that the release date is not written with the format expected: 
+ August 28, 2012
+2023-03-20 14:56:35,075 - WARNING - There is a new update that the release date is not written with the format expected: 
+ July 2, 2012
+2023-03-20 14:56:35,075 - WARNING - There is a new update that the release date is not written with the format expected: 
+ June 2, 2012
+2023-03-20 14:56:35,075 - WARNING - There is a new update that the release date is not written with the format expected: 
+ April 11, 2012
+2023-03-20 15:02:48,466 - WARNING - There is a new update that the release date is not written with the format expected: 
+ January 23, 2023
+2023-03-20 15:02:48,467 - WARNING - There is a new update that the release date is not written with the format expected: 
+ July 27, 2021
+2023-03-20 15:02:48,467 - WARNING - There is a new update that the release date is not written with the format expected: 
+ July 14, 2021
+2023-03-20 15:02:48,467 - WARNING - There is a new update that the release date is not written with the format expected: 
+ April 14, 2021
+2023-03-20 15:02:48,468 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 12, 2021
+2023-03-20 15:02:48,468 - WARNING - There is a new update that the release date is not written with the format expected: 
+ Feb 10, 2021
+2023-03-20 15:02:48,468 - WARNING - There is a new update that the release date is not written with the format expected: 
+ Jan 27, 2021
+2023-03-20 15:02:48,469 - WARNING - There is a new update that the release date is not written with the format expected: 
+ June 16, 2020
+2023-03-20 15:02:48,469 - WARNING - There is a new update that the release date is not written with the format expected: 
+ December 5, 2019
+2023-03-20 15:02:48,469 - WARNING - There is a new update that the release date is not written with the format expected: 
+ February 20, 2019
+2023-03-20 15:02:48,470 - WARNING - There is a new update that the release date is not written with the format expected: 
+ December 30, 2018
+2023-03-20 15:02:48,470 - WARNING - There is a new update that the release date is not written with the format expected: 
+ April 12, 2015
+2023-03-20 15:02:48,470 - WARNING - There is a new update that the release date is not written with the format expected: 
+ January 12, 2018
+2023-03-20 15:02:48,470 - WARNING - There is a new update that the release date is not written with the format expected: 
+ August 6, 2017
+2023-03-20 15:02:48,471 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 12, 2017
+2023-03-20 15:02:48,471 - WARNING - There is a new update that the release date is not written with the format expected: 
+ November 30, 2016
+2023-03-20 15:02:48,471 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 20, 2016
+2023-03-20 15:02:48,472 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 30, 2016
+2023-03-20 15:02:48,472 - WARNING - There is a new update that the release date is not written with the format expected: 
+ November 24, 2015
+2023-03-20 15:02:48,472 - WARNING - There is a new update that the release date is not written with the format expected: 
+ October 11, 2015
+2023-03-20 15:02:48,472 - WARNING - There is a new update that the release date is not written with the format expected: 
+ September 4, 2015
+2023-03-20 15:02:48,473 - WARNING - There is a new update that the release date is not written with the format expected: 
+ August 13, 2015
+2023-03-20 15:02:48,473 - WARNING - There is a new update that the release date is not written with the format expected: 
+ June 11, 2015
+2023-03-20 15:02:48,473 - WARNING - There is a new update that the release date is not written with the format expected: 
+ April 12, 2015
+2023-03-20 15:02:48,473 - WARNING - There is a new update that the release date is not written with the format expected: 
+ April 6, 2015
+2023-03-20 15:02:48,474 - WARNING - There is a new update that the release date is not written with the format expected: 
+ February 3, 2015
+2023-03-20 15:02:48,474 - WARNING - There is a new update that the release date is not written with the format expected: 
+ December 16, 2014
+2023-03-20 15:02:48,474 - WARNING - There is a new update that the release date is not written with the format expected: 
+ November 21, 2014
+2023-03-20 15:02:48,474 - WARNING - There is a new update that the release date is not written with the format expected: 
+ Septermber 12, 2014
+2023-03-20 15:02:48,475 - WARNING - There is a new update that the release date is not written with the format expected: 
+ July 26, 2014
+2023-03-20 15:02:48,475 - WARNING - There is a new update that the release date is not written with the format expected: 
+ June 1, 2014
+2023-03-20 15:02:48,475 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 5, 2014
+2023-03-20 15:02:48,475 - WARNING - There is a new update that the release date is not written with the format expected: 
+ Fedruary 12, 2014
+2023-03-20 15:02:48,476 - WARNING - There is a new update that the release date is not written with the format expected: 
+ January 26, 2014
+2023-03-20 15:02:48,476 - WARNING - There is a new update that the release date is not written with the format expected: 
+ January 23, 2014
+2023-03-20 15:02:48,476 - WARNING - There is a new update that the release date is not written with the format expected: 
+ October 3, 2013
+2023-03-20 15:02:48,476 - WARNING - There is a new update that the release date is not written with the format expected: 
+ August 12, 2013
+2023-03-20 15:02:48,477 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 22, 2013
+2023-03-20 15:02:48,477 - WARNING - There is a new update that the release date is not written with the format expected: 
+ March 12, 2013
+2023-03-20 15:02:48,477 - WARNING - There is a new update that the release date is not written with the format expected: 
+ November 19, 2012
+2023-03-20 15:02:48,477 - WARNING - There is a new update that the release date is not written with the format expected: 
+ October 27, 2012
+2023-03-20 15:02:48,478 - WARNING - There is a new update that the release date is not written with the format expected: 
+ August 28, 2012
+2023-03-20 15:02:48,478 - WARNING - There is a new update that the release date is not written with the format expected: 
+ July 2, 2012
+2023-03-20 15:02:48,478 - WARNING - There is a new update that the release date is not written with the format expected: 
+ June 2, 2012
+2023-03-20 15:02:48,478 - WARNING - There is a new update that the release date is not written with the format expected: 
+ April 11, 2012
+2023-03-20 15:06:18,348 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:06:18,349 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:08:42,009 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:08:42,009 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:09:20,664 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:09:20,664 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:10:17,660 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:10:17,660 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:10:56,572 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:10:56,572 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:11:36,260 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:11:36,260 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:22:59,184 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:22:59,184 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:24:29,260 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:24:29,260 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:25:18,636 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:25:18,636 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:30:25,105 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:30:25,106 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:32:29,999 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:32:29,999 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:36:01,365 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:36:01,365 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:40:36,490 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:40:36,490 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:41:01,971 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:41:01,971 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:44:00,009 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:44:00,010 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:44:19,909 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:44:19,910 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:44:55,245 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:44:55,245 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:50:44,160 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:50:44,161 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:53:53,463 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:53:53,463 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:54:00,117 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:54:00,117 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:55:26,472 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:55:26,472 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:55:55,132 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:55:55,132 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:56:22,054 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:56:22,055 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:56:43,984 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:56:43,985 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 15:57:15,959 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 15:57:15,959 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:02:47,821 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:02:47,822 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:03:15,886 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:03:15,886 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:08:17,395 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:08:17,396 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:10:12,221 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:10:12,222 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:10:24,160 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:10:24,160 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:10:57,396 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:10:57,396 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:13:07,793 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:13:07,794 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:13:36,305 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:13:36,306 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:13:59,896 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:13:59,897 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:15:28,317 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:15:28,317 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:16:05,721 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:16:05,721 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:16:55,584 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:16:55,584 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:17:10,299 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:17:10,299 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:20:42,667 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:20:42,668 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:22:42,305 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:22:42,305 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:22:56,832 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:22:56,832 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:23:54,325 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:23:54,325 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:24:11,269 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:24:11,270 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:24:21,266 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:24:21,267 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:26:27,187 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:26:27,187 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:26:50,387 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:26:50,387 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:34:38,664 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:34:38,664 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:36:14,510 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:36:14,511 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:39:56,155 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:39:56,155 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:41:56,359 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:41:56,360 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:42:27,291 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:42:27,291 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:42:44,915 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:42:44,915 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:43:03,678 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:43:03,678 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:43:22,213 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:43:22,213 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:44:04,318 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:44:04,318 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:44:29,401 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:44:29,402 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:50:53,378 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:50:53,379 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:51:15,170 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:51:15,170 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:53:37,770 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:53:37,770 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:53:51,809 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:53:51,810 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:54:26,678 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:54:26,679 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:54:27,128 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:54:27,129 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:55:23,873 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:55:23,874 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-20 16:56:13,106 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-20 16:56:13,107 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-21 15:47:09,024 - INFO - The last version of gnomad is 3.1.3
+2023-03-22 09:25:15,409 - INFO - The last version of gnomad is 3.1.3
+2023-03-22 09:26:22,903 - INFO - The last version of gnomad is 3.1.3
+2023-03-22 09:26:51,157 - INFO - The last version of gnomad is 3.1.3
+2023-03-22 09:28:41,555 - INFO - The last version of gnomad is 3.1.3
+2023-03-22 09:28:58,066 - INFO - The last version of gnomad is 3.1.3
+2023-03-22 09:47:54,478 - INFO - The last version of gnomad is 0
+2023-03-22 09:58:16,709 - INFO - The last version of gnomad is 3.1.3
+2023-03-22 10:07:53,531 - INFO - The last version of gnomad is 3.1.3
+2023-03-22 10:08:12,551 - INFO - The last version of gnomad is 3.1.3
+2023-03-22 10:09:15,883 - INFO - The last version of gnomad is 3.1.3
+2023-03-22 10:09:41,891 - INFO - The last version of gnomad is 3.1.3
+2023-03-22 12:20:42,294 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-22 12:22:31,708 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-22 12:24:31,566 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-22 15:05:30,171 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-22 15:14:36,663 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-22 15:15:19,165 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-22 15:16:47,651 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-22 15:21:49,270 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-22 15:26:23,486 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-22 15:27:58,382 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-23 10:56:33,456 - INFO - You already have the latest version of clinvar downloaded, actual version: 20230318
+                      last released version : 20230318
+2023-03-23 11:11:33,607 - INFO - The last release for spliceAI is 1.3.1
+2023-03-23 15:57:37,955 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:00:18,555 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:00:44,415 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:01:27,743 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:01:28,602 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:01:29,668 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:01:31,571 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:01:34,929 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:14:56,342 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:14:57,277 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:14:58,360 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:15:00,144 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:15:03,541 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:28:07,476 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:28:08,351 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:28:09,636 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:28:11,375 - INFO - Civic nightly file downloaded successfully
+2023-03-23 16:28:14,431 - INFO - Civic nightly file downloaded successfully
+2023-03-24 12:37:40,126 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-24 12:37:54,627 - INFO - a new image of docker will be pulled: release_109.3
+2023-03-24 14:43:20,810 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-24 14:43:20,846 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>, <Image: ''>]
+2023-03-24 14:45:27,465 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-24 14:45:27,508 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-24 14:45:27,509 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-24 14:46:40,730 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-24 14:46:40,762 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-24 14:46:40,763 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-24 14:46:42,387 - INFO - You already have the latest version of CADD database, 
+            actual pipeline version: 1.6
+             last realeased version: 1.6
+2023-03-24 14:48:12,856 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-24 14:48:12,887 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-24 14:48:12,888 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-24 14:48:13,701 - INFO - You already have the latest version of CADD database, 
+            actual pipeline version: 1.6
+             last realeased version: 1.6
+2023-03-24 14:48:14,251 - INFO - The last release for spliceAI is 1.3.1
+2023-03-24 14:49:59,007 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-24 14:49:59,037 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-24 14:49:59,037 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-24 14:50:00,890 - INFO - You already have the latest version of CADD database, 
+            actual pipeline version: 1.6
+             last realeased version: 1.6
+2023-03-24 14:50:01,553 - INFO - The last release for spliceAI is 1.3.1
+2023-03-24 14:52:31,524 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-24 14:52:31,525 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-24 14:54:54,950 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-24 14:54:54,950 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-24 14:55:21,897 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-24 14:55:21,898 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-24 14:55:49,589 - WARNING - An update release is not written as expected (full month): Septermber 12, 2014
+2023-03-24 14:55:49,589 - WARNING - An update release is not written as expected (full month): Fedruary 12, 2014
+2023-03-24 15:06:33,880 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-24 15:06:33,913 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-24 15:06:33,913 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-24 15:06:34,846 - INFO - You already have the latest version of CADD database, 
+            actual pipeline version: 1.6
+             last realeased version: 1.6
+2023-03-24 15:08:23,491 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-24 15:08:23,521 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-24 15:08:23,522 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-24 15:08:24,272 - INFO - You already have the latest version of CADD database, 
+            actual pipeline version: 1.6
+             last realeased version: 1.6
+2023-03-24 15:08:50,202 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-24 15:08:50,234 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-24 15:08:50,235 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-24 15:08:51,048 - INFO - You already have the latest version of CADD database, 
+            actual pipeline version: 1.6
+             last realeased version: 1.6
+2023-03-24 15:08:51,546 - INFO - A new version of dbNSFP is available:
+                dbNSFP pipeline version = 4.1
+                dbNSFP last release = 4.3
+2023-03-24 15:08:52,121 - INFO - The last release for spliceAI is 1.3.1
+2023-03-24 15:16:26,050 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-24 15:16:26,082 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-24 15:16:26,083 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-24 15:16:27,082 - INFO - You already have the latest version of CADD database, 
+        actual pipeline version: 1.6
+         last realeased version: 1.6
+2023-03-24 15:16:27,694 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.1
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-24 15:16:28,235 - INFO - The last release for spliceAI is 1.3.1
+2023-03-24 15:21:15,227 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-24 15:21:15,258 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-24 15:21:15,258 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-24 15:21:16,614 - INFO - You already have the latest version of CADD database, 
+        actual pipeline version: 1.6
+         last realeased version: 1.6
+2023-03-24 15:21:17,091 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.1
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-24 15:21:17,632 - INFO - The last release for spliceAI is 1.3.1
+2023-03-24 15:37:58,537 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-24 15:37:58,569 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-24 15:37:58,569 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-24 15:38:00,124 - INFO - The last version of gnomad is 3.1.3
+2023-03-24 15:38:00,124 - INFO -  A new version of gnomAD is available:
+        gnomAD pipelinve version = 2.1.1
+        gnomAD last release version = 3.1.3
+        If you want to install the latest version of gnomad go to the following URL: https://gnomad.broadinstitute.org/downloads/
+2023-03-24 15:38:01,487 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-24 15:38:02,040 - INFO - The last release for spliceAI is 1.3.1
+2023-03-24 15:38:02,040 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-27 15:54:00,766 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-27 15:54:00,811 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-27 15:54:00,812 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-27 15:56:21,180 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-27 15:56:21,214 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-27 15:56:21,215 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-27 15:56:21,271 - INFO - The last version of gnomad is 0
+2023-03-27 15:56:21,271 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-27 15:56:26,226 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-27 15:56:26,970 - INFO - The last release for spliceAI is 1.3.1
+2023-03-27 15:56:26,970 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-27 15:58:19,845 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-27 15:58:19,876 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-27 15:58:19,876 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-27 15:58:19,933 - INFO - The last version of gnomad is 0
+2023-03-27 15:58:19,933 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-27 15:58:21,395 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-27 15:58:22,035 - INFO - The last release for spliceAI is 1.3.1
+2023-03-27 15:58:22,035 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-27 15:58:54,884 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-27 15:58:54,914 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-27 15:58:54,915 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-27 15:58:54,973 - INFO - The last version of gnomad is 0
+2023-03-27 15:58:54,973 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-27 15:58:56,137 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-27 15:58:56,883 - INFO - The last release for spliceAI is 1.3.1
+2023-03-27 15:58:56,883 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-28 11:05:14,324 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 11:05:14,366 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 11:05:14,367 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 11:05:14,434 - INFO - The last version of gnomad is 0
+2023-03-28 11:05:14,434 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-28 11:05:21,054 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 11:17:47,048 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 11:17:47,082 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 11:17:47,083 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 11:17:47,143 - INFO - The last version of gnomad is 0
+2023-03-28 11:17:47,144 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-28 11:17:48,484 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 11:25:48,102 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 11:25:48,143 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 11:25:48,143 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 11:25:48,205 - INFO - The last version of gnomad is 0
+2023-03-28 11:25:48,205 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-28 11:25:49,707 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 11:25:50,368 - INFO - The last release for spliceAI is 1.3.1
+2023-03-28 11:25:50,369 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-28 11:27:24,800 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 11:27:24,831 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 11:27:24,831 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 11:27:24,887 - INFO - The last version of gnomad is 0
+2023-03-28 11:27:24,887 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-28 11:27:26,105 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 11:27:26,688 - INFO - The last release for spliceAI is 1.3.1
+2023-03-28 11:27:26,688 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-28 11:30:25,998 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 11:30:26,030 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 11:30:26,031 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 11:30:26,092 - INFO - The last version of gnomad is 0
+2023-03-28 11:30:26,093 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-28 11:30:27,403 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 11:30:27,974 - INFO - The last release for spliceAI is 1.3.1
+2023-03-28 11:30:27,974 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-28 11:37:37,364 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 11:37:37,396 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 11:37:37,396 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 11:37:37,461 - INFO - The last version of gnomad is 0
+2023-03-28 11:37:37,462 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-28 11:37:39,474 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 11:37:40,075 - INFO - The last release for spliceAI is 1.3.1
+2023-03-28 11:37:40,076 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-28 11:38:13,269 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 11:38:13,301 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 11:38:13,301 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 11:38:13,357 - INFO - The last version of gnomad is 0
+2023-03-28 11:38:13,357 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-28 11:38:14,507 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 11:38:15,061 - INFO - The last release for spliceAI is 1.3.1
+2023-03-28 11:38:15,061 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-28 13:59:51,740 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 13:59:51,770 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 13:59:51,771 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 13:59:51,826 - INFO - The last version of gnomad is 0
+2023-03-28 13:59:51,827 - INFO - The pipeline is using the last release of gnomAD:
+        actual gnomAD pipeline version = 2.1.1
+        gnomAD las release version = 0
+2023-03-28 13:59:53,061 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 13:59:53,775 - INFO - The last release for spliceAI is 1.3.1
+2023-03-28 13:59:53,776 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966
+2023-03-28 16:15:12,965 - INFO - The last version of gnomad is 0
+2023-03-28 16:32:13,933 - INFO - The latest version of vep in dockerhub is 109.3
+2023-03-28 16:32:13,979 - INFO - You have the following version of vep docker with the following images objects [<Image: 'ensemblorg/ensembl-vep:release_109.3'>, <Image: 'ensemblorg/ensembl-vep:latest'>]
+2023-03-28 16:32:13,980 - CRITICAL - We are not using the latest version of vep:             
+environment image v.: 105.0 
+DockerHub image v.: 109.3
+2023-03-28 16:32:15,823 - INFO - The last version of gnomad is 3.1.3
+2023-03-28 16:32:15,823 - INFO -  A new version of gnomAD is available:
+        gnomAD pipelinve version = 2.1.1
+        gnomAD last release version = 3.1.3
+        If you want to install the latest version of gnomad go to the following URL: https://gnomad.broadinstitute.org/downloads/
+2023-03-28 16:32:17,804 - INFO - A new version of dbNSFP is available:
+        dbNSFP pipeline version = 4.0
+        dbNSFP last release = 4.3
+        If you want to download the latest version of dbNSFP go to this url: https://sites.google.com/site/jpopgen/dbNSFP?pli=1
+2023-03-28 16:32:18,313 - INFO - The last release for spliceAI is 1.3.1
+2023-03-28 16:32:18,313 - INFO - A new version of Splice AI has been released:
+        actual spliceAI pipeline version: 1.3.0
+        last spliceAI release version: 1.3.1
+        If you want to download the latest version of SpliceAI go to this url: https://basespace.illumina.com/projects/66029966

@@ -1,0 +1,159 @@
+version: 1.0
+ann_dir: /home/gencardio/Desktop/ANN_DIR
+missense_predictors: ['sift','polyphen2','mutationtaster2','provean','fathmm','revel','mutpred']
+splicing_predictors: ['cadd','spliceai','maxentscan','dbscsnv']
+genomewide_predictors: ['cadd','ncer']
+yaml:
+  version: 0.00
+  dirname: yaml
+  hg19: annotation_resources_v0.0.yaml
+vep:
+  version: 105
+  resource_name: VEP
+  dirname: VEP
+  hg19: input
+  hg38: input
+  input: input
+  output: output
+clinvar:
+  version: 20230310
+  resource_name: clinvar
+  dirname: clinvar
+  hg19: hg19/clinvar_20230310.vcf.gz
+  hg38: hg38/
+gene_synonyms:
+  version: 1
+  resource_name: gene_synonyms
+  dirname: gene_synonyms
+  hg19: hg19/gene_synonyms.gz
+  hg38: hg38/
+thousand_genomes:
+  version: 20130502
+  resource_name: 1000Genomes
+  dirname: 1000Genomes
+  hg19: hg19/ALL.wgs.phase3_shapeit2_mvncall_integrated_v5b.20130502.sites.vcf.gz
+  hg38: hg38/
+gnomad:
+  version: 2.1.1
+  resource_name: gnomAD
+  dirname: gnomAD
+  hg19: hg19/gnomad.genomes.r2.1.1.filtered.sites.vcf.gz
+  hg38: hg38/
+gnomad_exomes:
+  version: 2.1.1
+  resource_name: gnomAD_exomes
+  dirname: gnomAD
+  hg19: hg19/gnomad.exomes.r2.1.1.filtered.sites.vcf.gz
+  hg38: hg38/
+gnomad_only_af:
+  version: 2.1.1
+  resource_name: gnomAD
+  dirname: gnomAD
+  hg19: hg19/somatic-b37_af-only-gnomad.raw.sites.chr.vcf.gz
+  hg38: hg38/
+gnomad_sv:
+  version: 2.1.1
+  resource_name: gnomAD_SV
+  dirname: gnomAD
+  hg19: hg19/gnomad_v2.1_sv.sites.vcf.gz
+  hg38: hg38/
+# In-silico predictors
+cadd:
+  version: 1.5
+  resource_name: CADD
+  dirname: CADD
+  hg19: hg19/1.6/whole_genome_SNVs.tsv.gz
+  hg38: hg38/
+dbnsfp:
+  version: 4.0
+  resource_name: dbNSFP
+  dirname: dbNSFP
+  hg19: hg19/dbNSFP4.1a_grch37.gz
+  hg38: hg38/
+spliceai_snv:
+  version: 0
+  resource_name: spliceAI
+  dirname: spliceAI
+  hg19: hg19/spliceai_scores.raw.snv.hg19.vcf.gz
+  hg38: hg38/
+spliceai_indel:
+  version: 0
+  resource_name: spliceAI
+  dirname: spliceAI
+  hg19: hg19/spliceai_scores.raw.indel.hg19.vcf.gz
+  hg38: hg38/
+dbscsnv:
+  version: 1.1
+  resource_name: dbscsnv
+  dirname: dbscSNV
+  hg19: hg19/dbscSNV1.1_GRCh37.txt.gz
+  hg38: hg38/
+# MaxEntScan scripts and models
+maxent:
+  version:
+  resource_name: MaxEntScan
+  dirname: MaxEntScan
+  hg19: hg19/
+  hg38: hg38/
+# Cancer specific
+tier_catsalut:
+  version: 1.0
+  resource_name: tier_catsalut
+  dirname: Tiers_cancer
+  hg19: hg19/Tiers_cancer.v1.tsv
+  hg38: hg19/Tiers_cancer.v1.tsv
+cancer_hotspots:
+  version: 2.0
+  resource_name: cancer_hotspots
+  dirname: cancer_hotspots
+  hg19: hg19/hotspots_v2.xls
+  hg38: hg38/
+civic:
+  version: 14_01_2023
+  resource_name: CIViC
+  dirname: CIViC
+  hg19: hg19/
+  hg38: hg38/
+cgi:
+  version: 1
+  resource_name: CGI
+  dirname: CGI
+  hg19: hg19/cgi_biomarkers_latest/cgi_biomarkers_per_variant.tsv
+  hg38: hg38/
+chimerdb:
+  version: 4
+  resource_name: chimerDB
+  dirname: chimerDB
+  hg19: hg19/chimerKB_hg19_fusions.bed
+  hg38: hg38/
+# Bad qual regions to be removed. Custom made
+blacklist:
+  version: ""
+  resource_name: Blacklist
+  dirname: Blacklist
+  hg19: hg19/exclude.regions.hg19.bed
+  hg38: hg38/
+phastcons:
+  version: ""
+  resource_name: phastCons
+  dirname: Conservation
+  hg19: hg19/hg19.100way.phastCons.bw
+  hg38: hg38/
+phylop:
+  version: ""
+  resource_name: phyloP
+  dirname: Conservation
+  hg19: hg19/hg19.100way.phyloP100way.bw
+  hg38: hg38/
+mappability:
+  version: ""
+  resource_name: mappability
+  dirname: Mappability
+  hg19: hg19/wgEncodeCrgMapabilityAlign100mer.chr.bedgraph.gz
+  hg38: hg38/
+grapes_db:
+  version: ""
+  resource_name: grapes_db
+  dirname: GRAPES_DB
+  hg19: hg19/
+  hg38: hg38/
