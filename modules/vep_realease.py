@@ -144,7 +144,6 @@ class Vep_class:
 
         # Extract the latest tag name and version number
         latest_tag = response_json['results'][1]['name']
-        print (latest_tag)
         version = float(latest_tag.split('_')[1])
 
         logging.info(f"The latest version of vep in dockerhub is {version}")
@@ -248,11 +247,9 @@ class Vep_class:
 
         cmd2 = f"docker image rm {image_name}:{image_tag}"
         result = subprocess.run(cmd2, shell=True)
-        print(result)
         if not result.returncode == 0:
             # Verify that the VEP image with the specified tag no longer exists
             result = subprocess.run(["docker images", "-q", f"{image_name}:{image_tag}"])
-            print (f"resutl: {result}")
             if not result.stdout:
                 logging.info(f"VEP image with tag {image_tag} have been unistalled successfully.")
                 return (0)

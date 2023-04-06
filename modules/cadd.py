@@ -35,7 +35,6 @@ class CADD:
 
         if matches:
             version_numbers = [float(match) for match in matches]
-            print(f"There are the following CADD versions: {version_numbers}")
         else:
             logging.critical("No versions have been found in the CADD downloads webpage: https://cadd.gs.washington.edu/download \n \
                             The script searches for Developmental release: vx.x in the html")

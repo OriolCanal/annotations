@@ -21,7 +21,6 @@ class Gnomad():
 
         ls_command = f"gsutil ls {self.gsutil_path}"
         result = subprocess.run(ls_command.split(), stdout=subprocess.PIPE)
-        print(f"result = {result}")
         output = result.stdout.decode("utf-8")
         paths = output.strip().split("\n")
 
@@ -32,7 +31,6 @@ class Gnomad():
             if version != "":
                 versions.append(version)
 
-        print(versions)
         return (versions)
     
     def get_last_release(self):
@@ -54,13 +52,10 @@ class Gnomad():
         gsutil_rel_file_path = f"{version}/vcf/gnomad.genomes.r{version}"
 
         gsutil_abs_path = f"{self.gsutil_path}{gsutil_rel_file_path}".strip()
-        print(gsutil_abs_path)
 
         file_exists_cmd = f"gsutil -q stat {gsutil_abs_path}"
 
         result = subprocess.run(file_exists_cmd, shell=True, capture_output=True)
-        print(f"result-stdout = {result.stdout}")
-        print(f"result.stderr = {result.stderr}")
 
     def download_release_file2(self):
         bucket = "gnomad-public"
@@ -69,7 +64,6 @@ class Gnomad():
         vcf_pattern = r"gnomad.(exomes|genomes).r(\d+).sites.vcf.bgz"
 
         output = subprocess.check_output(["gsutil", "ls", f"gs://gcp-public-data--gnomad/{prefix}"])
-        print(output)
         # Loop over the lines of the output
         latest_version = 0
         latest_filename = ''
@@ -82,21 +76,18 @@ class Gnomad():
             if match:
                 # Extract the version number from the filename
                 version = int(match.group(2))
-                print(version)
                 
                 # If this version is higher than the current latest version, update the latest version and filename
                 if version > latest_version:
                     latest_version = version
                     latest_filename = filename
 
-        print(latest_version, latest_filename)
         # Download the latest version of the GnomAD VCF file
         #subprocess.call(['gsutil', 'cp', f'gs://{bucket}/{prefix}/{latest_filename}', '.'])
                     
 
 
 if "__main__" == __name__:
-    print("hey")
     gnomad_class = Gnomad()
     last_version = gnomad_class.get_last_release()
     # gnomad_class.download_release_file2()

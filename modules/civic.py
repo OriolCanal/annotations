@@ -22,10 +22,8 @@ class Civic():
         return (date.strftime("%d_%m_%Y"))
 
     def download_nightly_file(self):
-        print(self.download_urls)
         date = self.get_date()
         for download_url in self.download_urls:
-            print(download_url)
             response = requests.get(download_url)
             civic_dir_path =f"{self.civic_path}/{date}"
             civic_filename = f"{os.path.basename(download_url)}"

@@ -3,7 +3,7 @@ from packaging import version
 sys.path.append("/home/ocanal/Desktop/annotations/modules")
 from modules.annotations_yaml import Yaml_file, Yaml_dict
 from modules.vep_realease import Vep_class
-from modules.global_var import logging, yaml_file, args, annotations_dir, get_y_n_from_user
+from modules.global_var import logging, yaml_pipeline, args, annotations_dir, get_y_n_from_user
 from modules.cadd import CADD
 from modules.clinvar import Clinvar
 from modules.splice_ai import SpliceAI
@@ -18,12 +18,13 @@ databases_release = {}
 
 # Yaml dict class
 
-Yaml_class = Yaml_file(yaml_file)
+Yaml_class = Yaml_file(yaml_pipeline)
 initial_yaml_dict = Yaml_class.parse_yaml()
 Yaml_dict_class = Yaml_dict(initial_yaml_dict)
 print(f"type initial yaml dict: {type(initial_yaml_dict)}")
 
-
+spliceai = Yaml_dict_class.get_database_version("dbnsfp")
+print(f"splice ai {spliceai}")
 
 
 # VARIANT EFFECT PRDICTOR (VEP)
@@ -110,6 +111,8 @@ spliceai_class = SpliceAI()
 current_spliceai_v = spliceai_class.get_last_version()
 pipeline_snv_v = Yaml_dict_class.get_database_version("spliceai_snv")
 pipeline_indel_v = Yaml_dict_class.get_database_version("spliceai_indel")
+
+print (f"current v : {current_spliceai_v}\n pipeline v: {pipeline_indel_v}")
 if (version.parse(str(current_spliceai_v)) > version.parse(str(pipeline_snv_v))) or version.parse(str(current_spliceai_v)) > version.parse(str(pipeline_indel_v)):
     spliceai_msg = f"A new version of Splice AI has been released:\n\
         actual spliceAI pipeline version: {pipeline_snv_v}\n\
@@ -134,4 +137,7 @@ for key, item in databases_release.items():
 
 print(f"whole email msg {whole_email_msg}")
 
-send_email("oriolcanal1998@gmail.com", "DATABASE RELEASES", whole_email_msg)
+email_recievers = ["oriolcanal1998@gmail.com", "bioinformaticaudmmp@gmail.com"]
+
+for email in email_recievers:
+    send_email(email, "ANUAL ANNOTATIONS DATABASES RELEASES", whole_email_msg)

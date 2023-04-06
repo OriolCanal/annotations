@@ -1,0 +1,199 @@
+.. Clinvar Update documentation master file, created by
+   sphinx-quickstart on Wed Apr  5 14:26:52 2023.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+UPDATE ANNOTATIONS 
+==================
+
+Annotations files are an essential component of clinical NGS analysis as they provide information about the genetic variants detected during the sequencing process (e.g. location, functional impact, clinical significance).
+
+Keeping the annotations up-to-date is crucial for different factors:
+
+1. Ensures accuracy: New research is constantly uncovering new genetic variants. Regularly updating annotations files ensures that the analysis is accurate and up-to-date, reducing the risk of false positives and false negatives.
+
+2. Enable good interpretation of results: Annotations files provide important information that is needed to interpret the result of NGS analysis. Without up-to-date annotations, it may be callenging to determine the clinical significance of detected variants.
+
+3. Facilitate variant filtering: Filtering variants is a common process in NGS analysis based on specific criteria, such as pathogenicity, or frequency in general population. Having up-to-date annotation files ensures the reliability of the filtering.
+
+This script has been developed to ensure that the clinical pipeline runs with the most up-to-date annotation resources. This script automatizatize both, the detection of new databases releases and its downloading and its integration with the ngs pipeline.
+
+However, the core dilemma of the automatization of new databases releases is that some of them are updated rarely. For example: SpliceAI vcf files have not beed updates since 2019, or CADD has a new release approximately once a year. In addition, there are some databases that does not have a standardized procedure to inform or publish new releases, as it can be the case of dbSNP what makes difficult to automatize the detection of new releases and its download. 
+
+For this reason, the rarely updated databases (dbNSFP, SpliceAI, CADD and gnomAD) will not be downloaded automatically. Instead an email notification will be send to advise of the new databases releases.
+
+On the other hand, databases that are updated more regularly (ClinVar and Civic), the automatization of the downloading process and its implementation into the NGS pipelina has been performed.
+
+CLINVAR
+-------
+
+ClinVar is a public database of genetic variations and their clinical significance. ClinVar aggregates and curates data on genetic variants, including germline and somatic variants, and classifies them based on their clinical significance. 
+
+This database contains information on variants associated with both Mendelian and complex diseases, as well as variants that have been implicated in drug response or toxicity.
+
+Annotating genetic variants with ClinVar is important because it provides valuable information about the clinical significance of the variants.
+
+The new genetic and sequencing techniques are leading to a growing volume of genetic data. For this reason Clinvar is constantly evolving and new information in being added regularly. A weekly file for genome GRCh37 is released in the `clinvar ftp server <https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/weekly/>`_
+
+This script aims to detect and download automatically the last release of Clinvar in order to be used by the NGS pipeline.
+
+Requirements
+============
+
+To take into account:
+This script has been developed to be update the clinvar files along with its yaml conf file used by the `ngs pipeline <https://github.com/GENCARDIO/GC_NGS_PIPELINE>`_. In the previous link you can find the steps required to install the pipeline.
+
+When installing in a new server, we should change the sys.path.append to where the script is executed
+
+1. Crete a docker group to give permissions to docker api:
+
+.. code-block:: console
+
+   sudo gpasswd -a $USER docker
+   newgrp docker
+
+
+2. Give Github and email credentials
+
+You should give as environmental variables the github token and the email token:
+
+.. code-block:: console
+
+   export github_token=<Your_github_token>
+   export pwd_bioinf=<email_token>
+
+
+The email token can be found in email sended by ocanal@idigbi.org with the following subject: email bioinformàtica bioinformaticaudmmp@gmail.com
+
+3. Clone the project:
+
+.. code-block:: console
+
+   git clone https://github.com/OriolCanal/annotations.git  
+
+
+4. Create a virtual environment:
+
+.. code-block:: console
+
+   python -m venv <venv_name>
+
+5. Install the required packages:
+
+.. code-block:: console
+
+   pip install -r requirements.txt
+
+6. Install gsutil 
+
+Gsutil is a command line tool that allow you to interact with Google Cloud Storage (GCS).
+
+.. code-block:: console
+
+   curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-423.0.0-linux-x86_64.tar.gz
+   tar -xf google-cloud-cli-423.0.0-linux-x86_64.tar.gz
+   ./google-cloud-sdk/install.sh
+
+
+WORKFLOW
+========
+
+An overview of the workflow to detect new releases for each database:
+
+ClinVar
+-------
+Clinvar uploaded weekly files in `clinvar ftp server <https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/weekly/>`_ indicating the release date in the filename. The script reads the vcf of the ClinVar ftp server and extract the date of all of them and returns the one with the latest date. This file is the one that is download and incorporated in the NGS pipeline.
+
+Civic
+-----
+Civic everyday updates a nightly file. This file is the one downloaded by the script and its downloaded filename is incorporated the date of download to distinguish the different versions.
+
+However, Civic does not implement changes in the database everynight. For this reason, using md5 it is compared the latest Civic file with the one that is download in order to avoid repetitive files. 
+
+CADD
+----
+In `CADD webserver <https://cadd.gs.washington.edu/download>`_ all the releases are shown as Developmental release: v x.x. From the website, all the versions are detected and the latest one is returned.
+
+GnomAD
+------
+GnomAD uses a Google Cloud Storage (GCS) to store all the releases. Gsutil is used to list all the releases that are stored in Google Clound and from here the last version is detected.
+
+SpliceAI
+--------
+SpliceAI has a Github repository where indicates new releases. In this case the script reads all the tags from the SpliceAI Github repository and returns the latest one.
+
+The script reads all the vcf clinvar files that are found in the `clinvar ftp server <https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/weekly/>`_.
+
+
+Requeriments
+============
+
+docker_py==1.10.6
+packaging==20.1
+PyGithub==1.58.1
+pytest==5.3.5
+PyYAML==6.0
+requests==2.28.2
+slack_sdk==3.20.2
+
+
+DATABASES
+==========
+
+
+YAML
+----
+
+In annotation_resources_v0.0.yaml the file location needs to be set to /home/gencardio/Desktop/ANN_DIR for ann_dir, yaml_file and yaml_dir
+
+CLINVAR
+-------
+
+Clinvar updates every monday and a new release is uploaded in the following ftp server:
+
+`Clinvar weekly updates webpage <https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/weekly/>`_
+
+The clinvar_date.vcf.gz are already compressed using bgzip and we can find also the indexed file with the same name including .tbi.
+
+
+SPLICEAI
+---------
+
+des del 2019 no sha generat cap actualització en els fitxers.
+
+
+DbNSFP
+------
+
+They have a mailing list to receive emails notifications about new versions of dbNSFP
+
+We can join the dbnsfp mailing list to receive notifications when a new version is released:
+
+https://groups.google.com/g/dbnsfp_announcements
+
+CADD
+----
+
+New release approximately once a year for minor imporvement mainly.
+
+On its download webpage: https://cadd.gs.washington.edu/download they always use the same methodology to indicate a new release:
+Developmental release: vx.x 
+
+I read its html and find for Developmental release: vx.x and extract the x.x to know its versions.
+
+
+Welcome to Clinvar Update's documentation!
+==========================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

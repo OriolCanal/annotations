@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>UPDATE ANNOTATIONS &#8212; Clinvar Update 05-04-2023 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="update-annotations">
+<h1>UPDATE ANNOTATIONS<a class="headerlink" href="#update-annotations" title="Permalink to this heading">¶</a></h1>
+<p>Annotations files are an essential component of clinical NGS analysis as they provide information about the genetic variants detected during the sequencing process (e.g. location, functional impact, clinical significance).</p>
+<p>Keeping the annotations up-to-date is crucial for different factors:</p>
+<ol class="arabic simple">
+<li><p>Ensures accuracy: New research is constantly uncovering new genetic variants. Regularly updating annotations files ensures that the analysis is accurate and up-to-date, reducing the risk of false positives and false negatives.</p></li>
+<li><p>Enable good interpretation of results: Annotations files provide important information that is needed to interpret the result of NGS analysis. Without up-to-date annotations, it may be callenging to determine the clinical significance of detected variants.</p></li>
+<li><p>Facilitate variant filtering: Filtering variants is a common process in NGS analysis based on specific criteria, such as pathogenicity, or frequency in general population. Having up-to-date annotation files ensures the reliability of the filtering.</p></li>
+</ol>
+<p>This script has been developed to ensure that the clinical pipeline runs with the most up-to-date annotation resources. This script automatizatize both, the detection of new databases releases and its downloading and its integration with the ngs pipeline.</p>
+<p>However, the core dilemma of the automatization of new databases releases is that some of them are updated rarely. For example: SpliceAI vcf files have not beed updates since 2019, or CADD has a new release approximately once a year. In addition, there are some databases that does not have a standardized procedure to inform or publish new releases, as it can be the case of dbSNP what makes difficult to automatize the detection of new releases and its download.</p>
+<p>For this reason, the rarely updated databases (dbNSFP, SpliceAI, CADD and gnomAD) will not be downloaded automatically. Instead an email notification will be send to advise of the new databases releases.</p>
+<p>On the other hand, databases that are updated more regularly (ClinVar and Civic), the automatization of the downloading process and its implementation into the NGS pipelina has been performed.</p>
+<section id="clinvar">
+<h2>CLINVAR<a class="headerlink" href="#clinvar" title="Permalink to this heading">¶</a></h2>
+<p>ClinVar is a public database of genetic variations and their clinical significance. ClinVar aggregates and curates data on genetic variants, including germline and somatic variants, and classifies them based on their clinical significance.</p>
+<p>This database contains information on variants associated with both Mendelian and complex diseases, as well as variants that have been implicated in drug response or toxicity.</p>
+<p>Annotating genetic variants with ClinVar is important because it provides valuable information about the clinical significance of the variants.</p>
+<p>The new genetic and sequencing techniques are leading to a growing volume of genetic data. For this reason Clinvar is constantly evolving and new information in being added regularly. A weekly file for genome GRCh37 is released in the <a class="reference external" href="https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/weekly/">clinvar ftp server</a></p>
+<p>This script aims to detect and download automatically the last release of Clinvar in order to be used by the NGS pipeline.</p>
+</section>
+</section>
+<section id="requirements">
+<h1>Requirements<a class="headerlink" href="#requirements" title="Permalink to this heading">¶</a></h1>
+<p>To take into account:
+This script has been developed to be update the clinvar files along with its yaml conf file used by the <a class="reference external" href="https://github.com/GENCARDIO/GC_NGS_PIPELINE">ngs pipeline</a>. In the previous link you can find the steps required to install the pipeline.</p>
+<p>When installing in a new server, we should change the sys.path.append to where the script is executed</p>
+<ol class="arabic simple">
+<li><p>Crete a docker group to give permissions to docker api:</p></li>
+</ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sudo gpasswd -a $USER docker</span>
+<span class="go">newgrp docker</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Give Github and email credentials</p></li>
+</ol>
+<p>You should give as environmental variables the github token and the email token:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">export github_token=&lt;Your_github_token&gt;</span>
+<span class="go">export pwd_bioinf=&lt;email_token&gt;</span>
+</pre></div>
+</div>
+<p>The email token can be found in email sended by <a class="reference external" href="mailto:ocanal&#37;&#52;&#48;idigbi&#46;org">ocanal<span>&#64;</span>idigbi<span>&#46;</span>org</a> with the following subject: email bioinformàtica <a class="reference external" href="mailto:bioinformaticaudmmp&#37;&#52;&#48;gmail&#46;com">bioinformaticaudmmp<span>&#64;</span>gmail<span>&#46;</span>com</a></p>
+<ol class="arabic simple" start="3">
+<li><p>Clone the project:</p></li>
+</ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">git clone https://github.com/OriolCanal/annotations.git</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Create a virtual environment:</p></li>
+</ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">python -m venv &lt;venv_name&gt;</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Install the required packages:</p></li>
+</ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">pip install -r requirements.txt</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="6">
+<li><p>Install gsutil</p></li>
+</ol>
+<p>Gsutil is a command line tool that allow you to interact with Google Cloud Storage (GCS).</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-423.0.0-linux-x86_64.tar.gz</span>
+<span class="go">tar -xf google-cloud-cli-423.0.0-linux-x86_64.tar.gz</span>
+<span class="go">./google-cloud-sdk/install.sh</span>
+</pre></div>
+</div>
+</section>
+<section id="workflow">
+<h1>WORKFLOW<a class="headerlink" href="#workflow" title="Permalink to this heading">¶</a></h1>
+<p>An overview of the workflow to detect new releases for each database:</p>
+<section id="id1">
+<h2>ClinVar<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h2>
+<p>Clinvar uploaded weekly files in <a class="reference external" href="https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/weekly/">clinvar ftp server</a> indicating the release date in the filename. The script reads the vcf of the ClinVar ftp server and extract the date of all of them and returns the one with the latest date. This file is the one that is download and incorporated in the NGS pipeline.</p>
+</section>
+<section id="civic">
+<h2>Civic<a class="headerlink" href="#civic" title="Permalink to this heading">¶</a></h2>
+<p>Civic everyday updates a nightly file. This file is the one downloaded by the script and its downloaded filename is incorporated the date of download to distinguish the different versions.</p>
+<p>However, Civic does not implement changes in the database everynight. For this reason, using md5 it is compared the latest Civic file with the one that is download in order to avoid repetitive files.</p>
+</section>
+<section id="cadd">
+<h2>CADD<a class="headerlink" href="#cadd" title="Permalink to this heading">¶</a></h2>
+<p>In <a class="reference external" href="https://cadd.gs.washington.edu/download">CADD webserver</a> all the releases are shown as Developmental release: v x.x. From the website, all the versions are detected and the latest one is returned.</p>
+</section>
+<section id="gnomad">
+<h2>GnomAD<a class="headerlink" href="#gnomad" title="Permalink to this heading">¶</a></h2>
+<p>GnomAD uses a Google Cloud Storage (GCS) to store all the releases. Gsutil is used to list all the releases that are stored in Google Clound and from here the last version is detected.</p>
+</section>
+<section id="spliceai">
+<h2>SpliceAI<a class="headerlink" href="#spliceai" title="Permalink to this heading">¶</a></h2>
+<p>SpliceAI has a Github repository where indicates new releases. In this case the script reads all the tags from the SpliceAI Github repository and returns the latest one.</p>
+<p>The script reads all the vcf clinvar files that are found in the <a class="reference external" href="https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/weekly/">clinvar ftp server</a>.</p>
+</section>
+</section>
+<section id="requeriments">
+<h1>Requeriments<a class="headerlink" href="#requeriments" title="Permalink to this heading">¶</a></h1>
+<p>docker_py==1.10.6
+packaging==20.1
+PyGithub==1.58.1
+pytest==5.3.5
+PyYAML==6.0
+requests==2.28.2
+slack_sdk==3.20.2</p>
+</section>
+<section id="databases">
+<h1>DATABASES<a class="headerlink" href="#databases" title="Permalink to this heading">¶</a></h1>
+<section id="yaml">
+<h2>YAML<a class="headerlink" href="#yaml" title="Permalink to this heading">¶</a></h2>
+<p>In annotation_resources_v0.0.yaml the file location needs to be set to /home/gencardio/Desktop/ANN_DIR for ann_dir, yaml_file and yaml_dir</p>
+</section>
+<section id="id4">
+<h2>CLINVAR<a class="headerlink" href="#id4" title="Permalink to this heading">¶</a></h2>
+<p>Clinvar updates every monday and a new release is uploaded in the following ftp server:</p>
+<p><a class="reference external" href="https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/weekly/">Clinvar weekly updates webpage</a></p>
+<p>The clinvar_date.vcf.gz are already compressed using bgzip and we can find also the indexed file with the same name including .tbi.</p>
+</section>
+<section id="id5">
+<h2>SPLICEAI<a class="headerlink" href="#id5" title="Permalink to this heading">¶</a></h2>
+<p>des del 2019 no sha generat cap actualització en els fitxers.</p>
+</section>
+<section id="dbnsfp">
+<h2>DbNSFP<a class="headerlink" href="#dbnsfp" title="Permalink to this heading">¶</a></h2>
+<p>They have a mailing list to receive emails notifications about new versions of dbNSFP</p>
+<p>We can join the dbnsfp mailing list to receive notifications when a new version is released:</p>
+<p><a class="reference external" href="https://groups.google.com/g/dbnsfp_announcements">https://groups.google.com/g/dbnsfp_announcements</a></p>
+</section>
+<section id="id6">
+<h2>CADD<a class="headerlink" href="#id6" title="Permalink to this heading">¶</a></h2>
+<p>New release approximately once a year for minor imporvement mainly.</p>
+<p>On its download webpage: <a class="reference external" href="https://cadd.gs.washington.edu/download">https://cadd.gs.washington.edu/download</a> they always use the same methodology to indicate a new release:
+Developmental release: vx.x</p>
+<p>I read its html and find for Developmental release: vx.x and extract the x.x to know its versions.</p>
+</section>
+</section>
+<section id="welcome-to-clinvar-update-s-documentation">
+<h1>Welcome to Clinvar Update’s documentation!<a class="headerlink" href="#welcome-to-clinvar-update-s-documentation" title="Permalink to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">Clinvar Update</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Oriol Canal Pujol.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 6.1.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -5,6 +5,8 @@ from github import Github
 import os
 
 github_token = os.environ.get("pwd_github")
+
+
 class SpliceAI:
 
 
@@ -14,6 +16,10 @@ class SpliceAI:
     github_tags_url = "https://github.com/Illumina/SpliceAI/"
     
     def get_released_versions(self) -> list:
+        """Get the versions of SpliceAi from SpliceAI Github tags
+        Return:
+            version_list : list SpliceAI versions
+        """
         # response = requests.get(self.github_tags_url)
         # html = response.content.decode("utf-8")
         # print(html)

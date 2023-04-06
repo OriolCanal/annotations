@@ -9,7 +9,38 @@ yaml_dict = yaml_file_class.parse_yaml()
 
 def test_parse_yaml():
 
-    keys = ['version', 'ann_dir', 'missense_predictors', 'splicing_predictors', 'genomewide_predictors', 'vep', 'gene_synonyms', 'thousand_genomes', 'gnomad', 'gnomad_exomes', 'gnomad_only_af', 'gnomad_sv', 'cadd', 'dbnsfp', 'spliceai_snv', 'spliceai_indel', 'dbscsnv', 'maxent', 'tier_catsalut', 'cancer_hotspots', 'civic', 'cgi', 'chimerdb', 'blacklist', 'phastcons', 'phylop', 'mappability', 'grapes_db']
+    keys = [
+        'version',
+        'ann_dir',
+        'missense_predictors',  
+        'splicing_predictors',
+        'genomewide_predictors',
+        'yaml',
+        'vep',
+        'clinvar',
+        'gene_synonyms',
+        'thousand_genomes',
+        'gnomad',
+        'gnomad_exomes',
+        'gnomad_only_af',
+        'gnomad_sv',
+        'cadd',
+        'dbnsfp',
+        'spliceai_snv',
+        'spliceai_indel',
+        'dbscsnv',
+        'maxent',
+        'tier_catsalut',
+        'cancer_hotspots',
+        'civic',
+        'cgi',
+        'chimerdb',
+        'blacklist',
+        'phastcons',
+        'phylop',
+        'mappability',
+        'grapes_db'
+    ]
 
     assert len(keys) == len(yaml_dict)
 

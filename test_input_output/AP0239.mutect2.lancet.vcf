@@ -1,0 +1,274 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##fileDate=03/04/23-14:21:14
+##source=FilterMutectCalls,Mutect2,lancet 1.1.0, October 18 2019
+##contig=<ID=chrM,length=16571>
+##contig=<ID=chr1,length=249250621>
+##contig=<ID=chr2,length=243199373>
+##contig=<ID=chr3,length=198022430>
+##contig=<ID=chr4,length=191154276>
+##contig=<ID=chr5,length=180915260>
+##contig=<ID=chr6,length=171115067>
+##contig=<ID=chr7,length=159138663>
+##contig=<ID=chr8,length=146364022>
+##contig=<ID=chr9,length=141213431>
+##contig=<ID=chr10,length=135534747>
+##contig=<ID=chr11,length=135006516>
+##contig=<ID=chr12,length=133851895>
+##contig=<ID=chr13,length=115169878>
+##contig=<ID=chr14,length=107349540>
+##contig=<ID=chr15,length=102531392>
+##contig=<ID=chr16,length=90354753>
+##contig=<ID=chr17,length=81195210>
+##contig=<ID=chr18,length=78077248>
+##contig=<ID=chr19,length=59128983>
+##contig=<ID=chr20,length=63025520>
+##contig=<ID=chr21,length=48129895>
+##contig=<ID=chr22,length=51304566>
+##contig=<ID=chrX,length=155270560>
+##contig=<ID=chrY,length=59373566>
+##contig=<ID=chr1_gl000191_random,length=106433>
+##contig=<ID=chr1_gl000192_random,length=547496>
+##contig=<ID=chr4_ctg9_hap1,length=590426>
+##contig=<ID=chr4_gl000193_random,length=189789>
+##contig=<ID=chr4_gl000194_random,length=191469>
+##contig=<ID=chr6_apd_hap1,length=4622290>
+##contig=<ID=chr6_cox_hap2,length=4795371>
+##contig=<ID=chr6_dbb_hap3,length=4610396>
+##contig=<ID=chr6_mann_hap4,length=4683263>
+##contig=<ID=chr6_mcf_hap5,length=4833398>
+##contig=<ID=chr6_qbl_hap6,length=4611984>
+##contig=<ID=chr6_ssto_hap7,length=4928567>
+##contig=<ID=chr7_gl000195_random,length=182896>
+##contig=<ID=chr8_gl000196_random,length=38914>
+##contig=<ID=chr8_gl000197_random,length=37175>
+##contig=<ID=chr9_gl000198_random,length=90085>
+##contig=<ID=chr9_gl000199_random,length=169874>
+##contig=<ID=chr9_gl000200_random,length=187035>
+##contig=<ID=chr9_gl000201_random,length=36148>
+##contig=<ID=chr11_gl000202_random,length=40103>
+##contig=<ID=chr17_ctg5_hap1,length=1680828>
+##contig=<ID=chr17_gl000203_random,length=37498>
+##contig=<ID=chr17_gl000204_random,length=81310>
+##contig=<ID=chr17_gl000205_random,length=174588>
+##contig=<ID=chr17_gl000206_random,length=41001>
+##contig=<ID=chr18_gl000207_random,length=4262>
+##contig=<ID=chr19_gl000208_random,length=92689>
+##contig=<ID=chr19_gl000209_random,length=159169>
+##contig=<ID=chr21_gl000210_random,length=27682>
+##contig=<ID=chrUn_gl000211,length=166566>
+##contig=<ID=chrUn_gl000212,length=186858>
+##contig=<ID=chrUn_gl000213,length=164239>
+##contig=<ID=chrUn_gl000214,length=137718>
+##contig=<ID=chrUn_gl000215,length=172545>
+##contig=<ID=chrUn_gl000216,length=172294>
+##contig=<ID=chrUn_gl000217,length=172149>
+##contig=<ID=chrUn_gl000218,length=161147>
+##contig=<ID=chrUn_gl000219,length=179198>
+##contig=<ID=chrUn_gl000220,length=161802>
+##contig=<ID=chrUn_gl000221,length=155397>
+##contig=<ID=chrUn_gl000222,length=186861>
+##contig=<ID=chrUn_gl000223,length=180455>
+##contig=<ID=chrUn_gl000224,length=179693>
+##contig=<ID=chrUn_gl000225,length=211173>
+##contig=<ID=chrUn_gl000226,length=15008>
+##contig=<ID=chrUn_gl000227,length=128374>
+##contig=<ID=chrUn_gl000228,length=129120>
+##contig=<ID=chrUn_gl000229,length=19913>
+##contig=<ID=chrUn_gl000230,length=43691>
+##contig=<ID=chrUn_gl000231,length=27386>
+##contig=<ID=chrUn_gl000232,length=40652>
+##contig=<ID=chrUn_gl000233,length=45941>
+##contig=<ID=chrUn_gl000234,length=40531>
+##contig=<ID=chrUn_gl000235,length=34474>
+##contig=<ID=chrUn_gl000236,length=41934>
+##contig=<ID=chrUn_gl000237,length=45867>
+##contig=<ID=chrUn_gl000238,length=39939>
+##contig=<ID=chrUn_gl000239,length=33824>
+##contig=<ID=chrUn_gl000240,length=41933>
+##contig=<ID=chrUn_gl000241,length=42152>
+##contig=<ID=chrUn_gl000242,length=43523>
+##contig=<ID=chrUn_gl000243,length=43341>
+##contig=<ID=chrUn_gl000244,length=39929>
+##contig=<ID=chrUn_gl000245,length=36651>
+##contig=<ID=chrUn_gl000246,length=38154>
+##contig=<ID=chrUn_gl000247,length=36422>
+##contig=<ID=chrUn_gl000248,length=39786>
+##contig=<ID=chrUn_gl000249,length=38502>
+##FILTER=<ID=FAIL,Description="Fail the site if all alleles fail but for different reasons.">
+##FILTER=<ID=base_qual,Description="alt median base quality">
+##FILTER=<ID=clustered_events,Description="Clustered events observed in the tumor">
+##FILTER=<ID=contamination,Description="contamination">
+##FILTER=<ID=duplicate,Description="evidence for alt allele is overrepresented by apparent duplicates">
+##FILTER=<ID=fragment,Description="abs(ref - alt) median fragment length">
+##FILTER=<ID=germline,Description="Evidence indicates this site is germline, not somatic">
+##FILTER=<ID=haplotype,Description="Variant near filtered variant on same haplotype.">
+##FILTER=<ID=low_allele_frac,Description="Allele fraction is below specified threshold">
+##FILTER=<ID=map_qual,Description="ref - alt median mapping quality">
+##FILTER=<ID=multiallelic,Description="Site filtered because too many alt alleles pass tumor LOD">
+##FILTER=<ID=n_ratio,Description="Ratio of N to alt exceeds specified ratio">
+##FILTER=<ID=normal_artifact,Description="artifact_in_normal">
+##FILTER=<ID=orientation,Description="orientation bias detected by the orientation bias mixture model">
+##FILTER=<ID=panel_of_normals,Description="Blacklisted site in panel of normals">
+##FILTER=<ID=position,Description="median distance of alt variants from end of reads">
+##FILTER=<ID=possible_numt,Description="Allele depth is below expected coverage of NuMT in autosome">
+##FILTER=<ID=slippage,Description="Site filtered due to contraction of short tandem repeat region">
+##FILTER=<ID=strand_bias,Description="Evidence for alt allele comes from one read direction only">
+##FILTER=<ID=strict_strand,Description="Evidence for alt allele is not represented in both directions">
+##FILTER=<ID=weak_evidence,Description="Mutation does not meet likelihood threshold">
+##FILTER=<ID=LowCovNormal,Description="Low coverage in the normal (<10)">
+##FILTER=<ID=HighCovNormal,Description="High coverage in the normal (>1000000)">
+##FILTER=<ID=LowCovTumor,Description="Low coverage in the tumor (<4)">
+##FILTER=<ID=HighCovTumor,Description="High coverage in the tumor (>1000000)">
+##FILTER=<ID=LowVafTumor,Description="Low variant allele frequency in the tumor (<0.04)">
+##FILTER=<ID=HighVafNormal,Description="High variant allele frequency in the normal (>0)">
+##FILTER=<ID=LowAltCntTumor,Description="Low alternative allele count in the tumor (<3)">
+##FILTER=<ID=HighAltCntNormal,Description="High alternative allele count in the normal (>0)">
+##FILTER=<ID=LowFisherScore,Description="Low Fisher's exact test score for tumor-normal allele counts (<5)">
+##FILTER=<ID=LowFisherSTR,Description="Low Fisher's exact test score for tumor-normal STR allele counts (<25)">
+##FILTER=<ID=StrandBias,Description="Strand bias: # of non-reference reads in either forward or reverse strand below threshold (<1)">
+##FILTER=<ID=STR,Description="Microsatellite mutation">
+##INFO=<ID=SOURCES,Number=1,Type=String,Description="SNV callers (mutect2,lancet)">
+##INFO=<ID=AS_FilterStatus,Number=A,Type=String,Description="Filter status for each allele, as assessed by ApplyVQSR. Note that the VCF filter field will reflect the most lenient/sensitive status across all alleles.">
+##INFO=<ID=AS_SB_TABLE,Number=1,Type=String,Description="Allele-specific forward/reverse read counts for strand bias tests. Includes the reference and alleles separated by |.">
+##INFO=<ID=AS_UNIQ_ALT_READ_COUNT,Number=A,Type=Integer,Description="Number of reads with unique start and mate end positions for each alt at a variant site">
+##INFO=<ID=CONTQ,Number=1,Type=Float,Description="Phred-scaled qualities that alt allele are not due to contamination">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth; some reads may have been filtered">
+##INFO=<ID=ECNT,Number=1,Type=Integer,Description="Number of events in this haplotype">
+##INFO=<ID=GERMQ,Number=1,Type=Integer,Description="Phred-scaled quality that alt alleles are not germline variants">
+##INFO=<ID=MBQ,Number=R,Type=Integer,Description="median base quality by allele">
+##INFO=<ID=MFRL,Number=R,Type=Integer,Description="median fragment length by allele">
+##INFO=<ID=MMQ,Number=R,Type=Integer,Description="median mapping quality by allele">
+##INFO=<ID=MPOS,Number=A,Type=Integer,Description="median distance from end of read">
+##INFO=<ID=NALOD,Number=A,Type=Float,Description="Negative log 10 odds of artifact in normal with same allele fraction as tumor">
+##INFO=<ID=NCount,Number=1,Type=Integer,Description="Count of N bases in the pileup">
+##INFO=<ID=NLOD,Number=A,Type=Float,Description="Normal log 10 likelihood ratio of diploid het or hom alt genotypes">
+##INFO=<ID=OCM,Number=1,Type=Integer,Description="Number of alt reads whose original alignment doesn't match the current contig.">
+##INFO=<ID=PON,Number=0,Type=Flag,Description="site found in panel of normals">
+##INFO=<ID=POPAF,Number=A,Type=Float,Description="negative log 10 population allele frequencies of alt alleles">
+##INFO=<ID=ROQ,Number=1,Type=Float,Description="Phred-scaled qualities that alt allele are not due to read orientation artifact">
+##INFO=<ID=RPA,Number=R,Type=Integer,Description="Number of times tandem repeat unit is repeated, for each allele (including reference)">
+##INFO=<ID=RU,Number=1,Type=String,Description="Tandem repeat unit (bases)">
+##INFO=<ID=SEQQ,Number=1,Type=Integer,Description="Phred-scaled quality that alt alleles are not sequencing errors">
+##INFO=<ID=STR,Number=0,Type=Flag,Description="Variant is a short tandem repeat">
+##INFO=<ID=STRANDQ,Number=1,Type=Integer,Description="Phred-scaled quality of strand bias artifact">
+##INFO=<ID=STRQ,Number=1,Type=Integer,Description="Phred-scaled quality that alt alleles in STRs are not polymerase slippage errors">
+##INFO=<ID=TLOD,Number=A,Type=Float,Description="Log 10 likelihood ratio score of variant existing versus not existing">
+##INFO=<ID=FETS,Number=1,Type=Float,Description="Phred-scaled p-value of the Fisher's exact test for tumor-normal allele counts">
+##INFO=<ID=SOMATIC,Number=0,Type=Flag,Description="Somatic mutation">
+##INFO=<ID=SHARED,Number=0,Type=Flag,Description="Shared mutation betweem tumor and normal">
+##INFO=<ID=NORMAL,Number=0,Type=Flag,Description="Mutation present only in the normal">
+##INFO=<ID=NONE,Number=0,Type=Flag,Description="Mutation not supported by data">
+##INFO=<ID=KMERSIZE,Number=1,Type=Integer,Description="K-mer size used to assemble the locus">
+##INFO=<ID=SB,Number=1,Type=Float,Description="Strand bias score: phred-scaled p-value of the Fisher's exact test for the forward/reverse read counts in the tumor">
+##INFO=<ID=MS,Number=1,Type=String,Description="Microsatellite mutation (format: #LEN#MOTIF)">
+##INFO=<ID=LEN,Number=1,Type=Integer,Description="Variant size in base pairs">
+##INFO=<ID=TYPE,Number=1,Type=String,Description="Variant type (snv, del, ins, complex)">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">
+##FORMAT=<ID=AF,Number=A,Type=Float,Description="Allele fractions of alternate alleles in the tumor">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth (reads with MQ=255 or with bad mates are filtered)">
+##FORMAT=<ID=F1R2,Number=R,Type=Integer,Description="Count of reads in F1R2 pair orientation supporting each allele">
+##FORMAT=<ID=F2R1,Number=R,Type=Integer,Description="Count of reads in F2R1 pair orientation supporting each allele">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=PGT,Number=1,Type=String,Description="Physical phasing haplotype information, describing how the alternate alleles are phased in relation to one another; will always be heterozygous and is not intended to describe called alleles">
+##FORMAT=<ID=PID,Number=1,Type=String,Description="Physical phasing ID information, where each unique ID within a given sample (but not across samples) connects records within a phasing group">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="Normalized, Phred-scaled likelihoods for genotypes as defined in the VCF specification">
+##FORMAT=<ID=PS,Number=1,Type=Integer,Description="Phasing set (typically the position of the first variant in the set)">
+##FORMAT=<ID=SB,Number=4,Type=Integer,Description="Per-sample component statistics which comprise the Fisher's Exact Test to detect strand bias.">
+##FORMAT=<ID=SR,Number=.,Type=Integer,Description="Strand counts for ref: # of supporting forward,reverse reads for reference allele">
+##FORMAT=<ID=SA,Number=.,Type=Integer,Description="Strand counts for alt: # of supporting forward,reverse reads for alterantive allele">
+##reference=file:///ref_dir/ucsc.hg19.fasta
+##INFO=<ID=IMPRECISE,Number=0,Type=Flag,Description="Imprecise structural variation">
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant">
+##INFO=<ID=SVLEN,Number=.,Type=Integer,Description="Difference in length between REF and ALT alleles">
+##INFO=<ID=END,Number=1,Type=Integer,Description="End position of the variant described in this record">
+##INFO=<ID=CIPOS,Number=2,Type=Integer,Description="Confidence interval around POS">
+##INFO=<ID=CIEND,Number=2,Type=Integer,Description="Confidence interval around END">
+##INFO=<ID=CIGAR,Number=A,Type=String,Description="CIGAR alignment for each alternate indel allele">
+##INFO=<ID=MATEID,Number=.,Type=String,Description="ID of mate breakend">
+##INFO=<ID=EVENT,Number=1,Type=String,Description="ID of event associated to breakend">
+##INFO=<ID=HOMLEN,Number=.,Type=Integer,Description="Length of base pair identical homology at event breakpoints">
+##INFO=<ID=HOMSEQ,Number=.,Type=String,Description="Sequence of base pair identical homology at event breakpoints">
+##INFO=<ID=SVINSLEN,Number=.,Type=Integer,Description="Length of insertion">
+##INFO=<ID=SVINSSEQ,Number=.,Type=String,Description="Sequence of insertion">
+##INFO=<ID=LEFT_SVINSSEQ,Number=.,Type=String,Description="Known left side of insertion for an insertion of unknown length">
+##INFO=<ID=RIGHT_SVINSSEQ,Number=.,Type=String,Description="Known right side of insertion for an insertion of unknown length">
+##INFO=<ID=PAIR_COUNT,Number=1,Type=Integer,Description="Read pairs supporting this variant where both reads are confidently mapped">
+##INFO=<ID=BND_PAIR_COUNT,Number=1,Type=Integer,Description="Confidently mapped reads supporting this variant at this breakend (mapping may not be confident at remote breakend)">
+##INFO=<ID=UPSTREAM_PAIR_COUNT,Number=1,Type=Integer,Description="Confidently mapped reads supporting this variant at the upstream breakend (mapping may not be confident at downstream breakend)">
+##INFO=<ID=DOWNSTREAM_PAIR_COUNT,Number=1,Type=Integer,Description="Confidently mapped reads supporting this variant at this downstream breakend (mapping may not be confident at upstream breakend)">
+##ALT=<ID=DEL,Description="Deletion">
+##ALT=<ID=INS,Description="Insertion">
+##ALT=<ID=DUP:TANDEM,Description="Tandem Duplication">
+##cmdline=manta-1.6.0.centos6_x86_64/bin/configManta.py --tumorBam /bam_dir/AP0239.rmdup.bam --referenceFasta /ref_dir/ucsc.hg19.fasta --exome --runDir /vcf_dir/
+##bcftools_mergeVersion=1.13+htslib-1.13+ds
+##bcftools_mergeCommand=merge --force-samples /home/ocanal/Desktop/test_pipeline/AP0239/VCF_FOLDER/AP0239.mutect2.lancet.vcf.gz /home/ocanal/Desktop/test_pipeline/AP0239/VCF_FOLDER/results/variants/candidateSV.vcf.gz; Date=Mon Apr  3 16:06:03 2023
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	AP0239
+chr7	54905350	.	T	C	.	germline	AS_SB_TABLE=62,26|48,20;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=166;AS_FilterStatus=SITE;MBQ=38,38;MFRL=146,151;MMQ=60,60;MPOS=16;POPAF=0.602;TLOD=221.37	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:88,68:0.449:156:39,26:33,32:62,26,48,20
+chr7	54912662	.	C	T	.	germline	AS_SB_TABLE=32,30|40,27;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=131;AS_FilterStatus=SITE;MBQ=38,38;MFRL=151,163;MMQ=60,60;MPOS=20;POPAF=0.345;TLOD=237.01	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:62,67:0.528:129:22,32:32,31:32,30,40,27
+chr7	54926166	.	A	G	.	germline	AS_SB_TABLE=70,67|64,51;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=277;AS_FilterStatus=SITE;MBQ=38,37;MFRL=125,126;MMQ=60,60;MPOS=17;POPAF=0.296;TLOD=340.15	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:137,115:0.463:252:45,43:58,47:70,67,64,51
+chr7	54934812	.	T	C	.	germline	AS_SB_TABLE=64,64|52,42;ECNT=2;GERMQ=1;SOURCES=mutect2;DP=227;AS_FilterStatus=SITE;MBQ=20,20;MFRL=119,120;MMQ=60,60;MPOS=23;POPAF=0.3;TLOD=257.52	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:128,94:0.423:222:48,32:41,31:64,64,52,42
+chr7	54934870	.	C	G	.	germline	AS_SB_TABLE=21,52|13,41;ECNT=2;GERMQ=1;SOURCES=mutect2;DP=132;AS_FilterStatus=SITE;MBQ=38,38;MFRL=123,131;MMQ=60,60;MPOS=20;POPAF=0.301;TLOD=174.83	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:73,54:0.436:127:18,9:9,6:21,52,13,41
+chr7	54950551	.	T	C	.	germline	AS_SB_TABLE=92,70|68,43;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=290;AS_FilterStatus=SITE;MBQ=38,38;MFRL=130,127;MMQ=60,60;MPOS=21;POPAF=0.455;TLOD=328.83	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:162,111:0.409:273:68,44:63,42:92,70,68,43
+chr7	54961755	.	T	G	.	germline	AS_SB_TABLE=11,53|12,36;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=120;AS_FilterStatus=SITE;MBQ=38,38;MFRL=148,137;MMQ=60,60;MPOS=16;POPAF=0.341;TLOD=147.88	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:64,48:0.412:112:27,17:30,22:11,53,12,36
+chr7	54970059	.	C	A	.	germline	AS_SB_TABLE=39,69|22,50;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=196;AS_FilterStatus=SITE;MBQ=38,38;MFRL=133,138;MMQ=60,60;MPOS=23;POPAF=0.311;TLOD=236.44	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:108,72:0.435:180:48,27:35,29:39,69,22,50
+chr7	54970151	.	C	A	.	germline;strand_bias	AS_SB_TABLE=0,23|1,17;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=44;AS_FilterStatus=strand_bias;MBQ=38,38;MFRL=176,198;MMQ=60,60;MPOS=13;POPAF=0.533;TLOD=59.3	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:23,18:0.428:41:15,11:8,6:0,23,1,17
+chr7	55028474	.	C	G	.	germline	AS_SB_TABLE=36,37|40,31;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=146;AS_FilterStatus=SITE;MBQ=38,38;MFRL=150,132;MMQ=60,60;MPOS=12;POPAF=0.431;TLOD=231.45	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:73,71:0.489:144:29,34:37,28:36,37,40,31
+chr7	55039957	.	C	G	.	germline	AS_SB_TABLE=33,64|25,56;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=188;AS_FilterStatus=SITE;MBQ=38,38;MFRL=130,140;MMQ=60,60;MPOS=17;POPAF=0.595;TLOD=251.08	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:97,81:0.464:178:39,38:35,29:33,64,25,56
+chr7	55046540	.	T	A	.	germline	AS_SB_TABLE=62,45|75,66;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=262;AS_FilterStatus=SITE;MBQ=38,37;MFRL=111,120;MMQ=60,60;MPOS=23;POPAF=0.391;TLOD=436.33	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:107,141:0.564:248:46,54:36,51:62,45,75,66
+chr7	55058006	.	T	C	.	germline	AS_SB_TABLE=82,70|87,91;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=335;AS_FilterStatus=SITE;MBQ=38,38;MFRL=124,130;MMQ=60,60;MPOS=19;POPAF=0.407;TLOD=551.66	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:152,178:0.541:330:56,68:64,69:82,70,87,91
+chr7	55065119	.	A	G	.	germline	AS_SB_TABLE=44,42|40,53;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=196;AS_FilterStatus=SITE;MBQ=38,38;MFRL=150,147;MMQ=60,60;MPOS=16;POPAF=0.412;TLOD=313.55	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:86,93:0.512:179:36,33:37,45:44,42,40,53
+chr7	55083281	.	TG	T	0	LowFisherScore	SOMATIC;FETS=0;TYPE=del;LEN=1;KMERSIZE=15;SB=6.45538;SOURCES=lancet	GT:AD:SR:SA:DP	0/1:15,67:10,5:42,25:82
+chr7	55083362	.	C	T	0	LowFisherScore	SOMATIC;FETS=0;TYPE=snv;LEN=1;KMERSIZE=13;SB=8.31753;SOURCES=mutect2,lancet	GT:AD:SR:SA:DP	0/1:48,50:19,29:22,28:98
+chr7	55090379	.	T	C	.	germline	AS_SB_TABLE=36,48|45,64;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=202;AS_FilterStatus=SITE;MBQ=38,38;MFRL=148,146;MMQ=60,60;MPOS=15;POPAF=0.484;TLOD=375	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:84,109:0.561:193:35,41:36,54:36,48,45,64
+chr7	55136397	.	C	T	0	LowFisherScore	SOMATIC;FETS=0;TYPE=snv;LEN=1;KMERSIZE=21;SB=14.3682;SOURCES=mutect2,lancet	GT:AD:SR:SA:DP	0/1:101,73:48,53:26,47:174
+chr7	55208277	.	G	A	.	germline;haplotype	AS_SB_TABLE=81,71|50,35;ECNT=2;GERMQ=1;SOURCES=mutect2;DP=240;AS_FilterStatus=SITE;MBQ=38,38;MFRL=132,144;MMQ=60,60;MPOS=18;POPAF=0.364;TLOD=309.75	GT:AD:AF:DP:F1R2:F2R1:PGT:PID:PS:SB	0|1:152,85:0.376:237:59,31:58,35:0|1:55208277_G_A:55208277:81,71,50,35
+chr7	55208284	.	C	A	.	germline;haplotype	AS_SB_TABLE=76,67|44,31;ECNT=2;GERMQ=1;SOURCES=mutect2;DP=227;AS_FilterStatus=SITE;MBQ=38,38;MFRL=132,144;MMQ=60,60;MPOS=17;POPAF=0.06;TLOD=287.65	GT:AD:AF:DP:F1R2:F2R1:PGT:PID:PS:SB	0|1:143,75:0.364:218:52,34:54,26:0|1:55208277_G_A:55208277:76,67,44,31
+chr7	55214348	.	C	T	.	germline	AS_SB_TABLE=1,3|178,162;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=361;AS_FilterStatus=SITE;MBQ=38,34;MFRL=164,114;MMQ=60,60;MPOS=15;POPAF=0.298;TLOD=1141.25	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:4,340:0.981:344:3,118:1,132:1,3,178,162
+chr7	55218903	.	T	C	.	germline	AS_SB_TABLE=2,1|144,130;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=294;AS_FilterStatus=SITE;MBQ=20,38;MFRL=119,140;MMQ=60,60;MPOS=17;POPAF=0.285;TLOD=993.85	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:3,274:0.987:277:0,108:2,113:2,1,144,130
+chr7	55219159	.	C	T	.	germline	AS_SB_TABLE=0,0|109,172;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=300;AS_FilterStatus=SITE;MBQ=0,38;MFRL=0,131;MMQ=60,60;MPOS=16;POPAF=0.272;TLOD=1009.03	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:0,281:0.996:281:0,107:0,107:0,0,109,172
+chr7	55220177	.	A	G	.	germline	AS_SB_TABLE=0,0|95,47;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=160;AS_FilterStatus=SITE;MBQ=0,38;MFRL=0,134;MMQ=60,60;MPOS=17;POPAF=0.238;TLOD=522.75	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:0,142:0.992:142:0,61:0,53:0,0,95,47
+chr7	55228053	.	A	T	.	germline	AS_SB_TABLE=14,85|18,77;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=201;AS_FilterStatus=SITE;MBQ=38,38;MFRL=154,149;MMQ=60,60;MPOS=15;POPAF=0.158;TLOD=303.5	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:99,95:0.477:194:51,37:35,43:14,85,18,77
+chr7	55229255	.	G	A	.	germline	AS_SB_TABLE=67,75|72,79;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=308;AS_FilterStatus=SITE;MBQ=34,34;MFRL=120,118;MMQ=60,60;MPOS=19;POPAF=0.623;TLOD=437.42	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:142,151:0.518:293:46,55:54,50:67,75,72,79
+chr7	55238268	.	G	A	.	germline	AS_SB_TABLE=36,59|29,54;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=187;AS_FilterStatus=SITE;MBQ=20,20;MFRL=106,112;MMQ=60,60;MPOS=22;POPAF=0.493;TLOD=233.49	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:95,83:0.467:178:31,32:34,19:36,59,29,54
+chr7	55238874	.	T	A	.	germline	AS_SB_TABLE=60,60|53,59;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=242;AS_FilterStatus=SITE;MBQ=38,38;MFRL=132,127;MMQ=60,60;MPOS=24;POPAF=0.475;TLOD=339.11	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:120,112:0.476:232:52,45:45,44:60,60,53,59
+chr7	55242609	.	A	G	.	germline	AS_SB_TABLE=21,63|15,59;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=173;AS_FilterStatus=SITE;MBQ=37,38;MFRL=133,133;MMQ=60,60;MPOS=20;POPAF=0.58;TLOD=222.17	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:84,74:0.474:158:32,28:29,26:21,63,15,59
+chr7	55249063	.	G	A	.	germline	AS_SB_TABLE=0,0|170,135;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=318;AS_FilterStatus=SITE;MBQ=0,34;MFRL=0,122;MMQ=60,60;MPOS=16;POPAF=0.289;TLOD=1020.72	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:0,305:0.996:305:0,109:0,109:0,0,170,135
+chr7	55253305	.	C	A	.	clustered_events;germline	AS_SB_TABLE=0,0|98,33;ECNT=5;GERMQ=1;SOURCES=mutect2;DP=135;AS_FilterStatus=SITE;MBQ=0,38;MFRL=0,144;MMQ=60,60;MPOS=21;POPAF=0.283;TLOD=621.54	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:0,131:0.991:131:0,42:0,64:0,0,98,33
+chr7	55253325	.	A	G	.	clustered_events;germline	AS_SB_TABLE=0,1|105,51;ECNT=5;GERMQ=1;SOURCES=mutect2;DP=159;AS_FilterStatus=SITE;MBQ=11,38;MFRL=108,144;MMQ=60,60;MPOS=18;POPAF=0.248;TLOD=570.02	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:1,156:0.993:157:0,52:0,64:0,1,105,51
+chr7	55253338	.	A	T	.	clustered_events;germline;haplotype	AS_SB_TABLE=0,0|124,60;ECNT=5;GERMQ=1;SOURCES=mutect2;DP=184;AS_FilterStatus=SITE;MBQ=0,38;MFRL=0,144;MMQ=60,60;MPOS=16;POPAF=0.248;TLOD=871.25	GT:AD:AF:DP:F1R2:F2R1:PGT:PID:PS:SB	0|1:0,184:0.994:184:0,58:0,73:0|1:55253338_A_T:55253338:0,0,124,60
+chr7	55253349	.	A	T	.	clustered_events;germline;haplotype	AS_SB_TABLE=0,0|106,59;ECNT=5;GERMQ=1;SOURCES=mutect2;DP=170;AS_FilterStatus=SITE;MBQ=0,38;MFRL=0,142;MMQ=60,60;MPOS=19;POPAF=0.248;TLOD=875.3	GT:AD:AF:DP:F1R2:F2R1:PGT:PID:PS:SB	0|1:0,165:0.994:165:0,54:0,57:0|1:55253338_A_T:55253338:0,0,106,59
+chr7	55253425	.	C	T	.	clustered_events;germline	AS_SB_TABLE=1,0|105,174;ECNT=5;GERMQ=1;SOURCES=mutect2;DP=290;AS_FilterStatus=SITE;MBQ=37,34;MFRL=88,125;MMQ=60,60;MPOS=19;POPAF=0.257;TLOD=948.19	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:1,279:0.995:280:0,43:0,67:1,0,105,174
+chr7	55259515	.	T	G	.	PASS	AS_SB_TABLE=108,129|26,33;ECNT=1;GERMQ=93;SOURCES=mutect2;DP=310;AS_FilterStatus=SITE;MBQ=38,38;MFRL=124,134;MMQ=60,60;MPOS=20;POPAF=7.3;TLOD=158.04	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:237,59:0.206:296:93,21:80,22:108,129,26,33
+chr7	55266417	.	T	C	.	germline	AS_SB_TABLE=1,1|231,198;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=450;AS_FilterStatus=SITE;MBQ=20,34;MFRL=75,120;MMQ=60,60;MPOS=18;POPAF=0.05;TLOD=1445.9	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:2,429:0.994:431:0,162:1,145:1,1,231,198
+chr7	55269304	.	G	A	0	LowFisherScore;LowVafTumor	SOMATIC;FETS=0;TYPE=snv;LEN=1;KMERSIZE=15;SB=5.71342;SOURCES=lancet	GT:AD:SR:SA:DP	0/1:229,3:143,86:1,2:232
+chr7	55269675	.	C	CAG	0	LowFisherScore;HighVafNormal;HighAltCntNormal	SHARED;FETS=0;TYPE=ins;LEN=2;KMERSIZE=15;SB=0;SOURCES=lancet	GT:AD:SR:SA:DP	1/1:0,344:0,0:175,169:344
+chr7	55282677	.	A	G	.	germline	AS_SB_TABLE=1,4|101,179;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=292;AS_FilterStatus=SITE;MBQ=38,38;MFRL=133,128;MMQ=60,60;MPOS=15;POPAF=0.322;TLOD=984.77	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:5,280:0.979:285:2,108:1,101:1,4,101,179
+chr7	55302832	.	C	G	.	germline	AS_SB_TABLE=0,0|82,48;ECNT=2;GERMQ=1;SOURCES=mutect2;DP=141;AS_FilterStatus=SITE;MBQ=0,38;MFRL=0,139;MMQ=60,60;MPOS=17;POPAF=0.323;TLOD=490.25	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:0,130:0.992:130:0,59:0,47:0,0,82,48
+chr7	55302897	.	C	T	.	germline	AS_SB_TABLE=2,1|118,98;ECNT=2;GERMQ=1;SOURCES=mutect2;DP=224;AS_FilterStatus=SITE;MBQ=20,37;MFRL=90,124;MMQ=60,60;MPOS=17;POPAF=0.564;TLOD=746.96	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:3,216:0.983:219:1,59:1,75:2,1,118,98
+chr7	55313378	.	C	T	.	germline	AS_SB_TABLE=0,0|65,107;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=183;AS_FilterStatus=SITE;MBQ=0,38;MFRL=0,138;MMQ=60,60;MPOS=20;POPAF=0.559;TLOD=653.3	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:0,172:0.994:172:0,77:0,64:0,0,65,107
+chr7	55334727	.	A	C	.	germline	AS_SB_TABLE=43,41|60,56;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=208;AS_FilterStatus=SITE;MBQ=38,38;MFRL=141,137;MMQ=60,60;MPOS=19;POPAF=0.336;TLOD=378.15	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:84,116:0.571:200:31,56:41,42:43,41,60,56
+chr7	55340932	.	C	T	.	germline	AS_SB_TABLE=36,54|47,51;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=202;AS_FilterStatus=SITE;MBQ=38,20;MFRL=137,126;MMQ=60,60;MPOS=19;POPAF=0.55;TLOD=279.08	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:90,98:0.477:188:27,37:46,34:36,54,47,51
+chr7	55347400	.	C	G	.	germline	AS_SB_TABLE=0,0|70,13;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=89;AS_FilterStatus=SITE;MBQ=0,38;MFRL=0,136;MMQ=60,60;MPOS=17;POPAF=0.042;TLOD=299.35	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:0,83:0.987:83:0,37:0,34:0,0,70,13
+chr7	55347512	.	T	C	.	germline	AS_SB_TABLE=62,52|74,66;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=265;AS_FilterStatus=SITE;MBQ=38,38;MFRL=130,121;MMQ=60,60;MPOS=21;POPAF=0.394;TLOD=438.8	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:114,140:0.542:254:38,51:51,56:62,52,74,66
+chr7	55355448	.	T	C	.	germline	AS_SB_TABLE=52,69|42,57;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=228;AS_FilterStatus=SITE;MBQ=38,38;MFRL=138,138;MMQ=60,60;MPOS=17;POPAF=0.562;TLOD=312.27	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:121,99:0.458:220:48,41:48,36:52,69,42,57
+chr7	55371250	.	A	G	.	germline	AS_SB_TABLE=0,1|36,74;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=114;AS_FilterStatus=SITE;MBQ=34,33;MFRL=137,121;MMQ=60,60;MPOS=19;POPAF=0.267;TLOD=358.71	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:1,110:0.977:111:1,43:0,33:0,1,36,74
+chr7	55378747	.	G	C	.	germline	AS_SB_TABLE=47,33|37,33;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=153;AS_FilterStatus=SITE;MBQ=37,38;MFRL=131,155;MMQ=60,60;MPOS=18;POPAF=0.469;TLOD=225.87	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:80,70:0.492:150:45,33:17,25:47,33,37,33
+chr7	55393605	.	A	G	.	germline	AS_SB_TABLE=29,42|34,54;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=166;AS_FilterStatus=SITE;MBQ=38,38;MFRL=130,131;MMQ=60,60;MPOS=21;POPAF=0.467;TLOD=280	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:71,88:0.56:159:27,36:25,32:29,42,34,54
+chr7	55400320	.	T	C	.	clustered_events;germline	AS_SB_TABLE=2,1|92,44;ECNT=3;GERMQ=1;SOURCES=mutect2;DP=144;AS_FilterStatus=SITE;MBQ=20,38;MFRL=134,138;MMQ=60,60;MPOS=19;POPAF=0.097;TLOD=485.27	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:3,136:0.975:139:1,54:1,52:2,1,92,44
+chr7	55400334	.	C	T	.	clustered_events;germline	AS_SB_TABLE=64,43|43,24;ECNT=3;GERMQ=1;SOURCES=mutect2;DP=181;AS_FilterStatus=SITE;MBQ=38,34;MFRL=138,134;MMQ=60,60;MPOS=15;POPAF=0.478;TLOD=186.13	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:107,67:0.373:174:38,26:38,21:64,43,43,24
+chr7	55400359	.	G	A	.	clustered_events;germline	AS_SB_TABLE=1,0|82,90;ECNT=3;GERMQ=1;SOURCES=mutect2;DP=174;AS_FilterStatus=SITE;MBQ=38,38;MFRL=229,131;MMQ=60,60;MPOS=21;POPAF=0.095;TLOD=613.56	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:1,172:0.986:173:1,54:0,44:1,0,82,90
+chr7	55416964	.	C	T	.	germline	AS_SB_TABLE=57,60|45,40;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=207;AS_FilterStatus=SITE;MBQ=36,38;MFRL=127,128;MMQ=60,60;MPOS=21;POPAF=0.733;TLOD=261.96	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:117,85:0.442:202:44,37:42,33:57,60,45,40
+chr7	55423050	.	C	T	.	germline	AS_SB_TABLE=50,56|29,35;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=182;AS_FilterStatus=SITE;MBQ=38,38;MFRL=127,146;MMQ=60,60;MPOS=23;POPAF=0.327;TLOD=197.74	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:106,64:0.4:170:33,22:45,29:50,56,29,35
+chr7	55447946	.	G	T	0	LowFisherScore	SOMATIC;FETS=0;TYPE=snv;LEN=1;KMERSIZE=17;SB=0;SOURCES=mutect2,lancet	GT:AD:SR:SA:DP	1/1:0,125:0,0:74,51:125
+chr7	55447988	.	G	T	0	LowFisherScore	SOMATIC;FETS=0;TYPE=snv;LEN=1;KMERSIZE=17;SB=9.07062;SOURCES=mutect2,lancet	GT:AD:SR:SA:DP	0/1:69,64:33,36:28,36:133
+chr7	55448081	.	A	C	0	LowFisherScore;StrandBias	SOMATIC;FETS=0;TYPE=snv;LEN=1;KMERSIZE=17;SB=12.6981;SOURCES=mutect2,lancet	GT:AD:SR:SA:DP	0/1:31,23:5,26:0,23:54
+chr7	55457756	.	A	C	0	LowFisherScore;StrandBias	SOMATIC;FETS=0;TYPE=snv;LEN=1;KMERSIZE=15;SB=0;SOURCES=mutect2,lancet	GT:AD:SR:SA:DP	0/1:23,17:23,0:17,0:40
+chr7	55457812	.	T	C	0	LowFisherScore;LowVafTumor;StrandBias	SOMATIC;FETS=0;TYPE=snv;LEN=1;KMERSIZE=15;SB=2.94649;SOURCES=lancet	GT:AD:SR:SA:DP	0/1:82,3:65,17:3,0:85
+chr7	55457861	.	G	A	0	LowFisherScore	SOMATIC;FETS=0;TYPE=snv;LEN=1;KMERSIZE=15;SB=9.21477;SOURCES=mutect2,lancet	GT:AD:SR:SA:DP	0/1:50,27:17,33:6,21:77
+chr7	55457902	.	C	A	0	LowFisherScore	SOMATIC;FETS=0;TYPE=snv;LEN=1;KMERSIZE=15;SB=4.09802;SOURCES=mutect2,lancet	GT:AD:SR:SA:DP	0/1:36,14:4,32:1,13:50
+chr7	55464067	.	C	T	.	germline	AS_SB_TABLE=47,54|56,62;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=226;AS_FilterStatus=SITE;MBQ=37,38;MFRL=119,134;MMQ=60,60;MPOS=17;POPAF=0.445;TLOD=359	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:101,118:0.549:219:24,46:47,44:47,54,56,62
+chr7	55471642	.	A	C	.	germline	AS_SB_TABLE=61,55|67,46;ECNT=1;GERMQ=1;SOURCES=mutect2;DP=236;AS_FilterStatus=SITE;MBQ=38,38;MFRL=127,131;MMQ=60,60;MPOS=20;POPAF=0.449;TLOD=348.8	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:116,113:0.503:229:38,53:52,36:61,55,67,46
+chr7	55471778	.	G	T	.	germline	AS_SB_TABLE=28,62|22,61;ECNT=2;GERMQ=1;SOURCES=mutect2;DP=188;AS_FilterStatus=SITE;MBQ=38,38;MFRL=131,140;MMQ=60,60;MPOS=17;POPAF=0.447;TLOD=279.89	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:90,83:0.51:173:30,35:38,40:28,62,22,61
+chr7	55471819	.	T	C	.	germline	AS_SB_TABLE=11,43|10,34;ECNT=2;GERMQ=1;SOURCES=mutect2;DP=102;AS_FilterStatus=SITE;MBQ=38,38;MFRL=140,150;MMQ=60,60;MPOS=19;POPAF=0.447;TLOD=135.29	GT:AD:AF:DP:F1R2:F2R1:SB	0/1:54,44:0.443:98:14,17:18,9:11,43,10,34

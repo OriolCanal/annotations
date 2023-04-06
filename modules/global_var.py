@@ -3,20 +3,91 @@ import argparse
 import sys
 import re
 import os
-# from slack_sdk import WebClient
-# from slack_sdk.errors import SlackApiError
+
+main_dir = "/home/ocanal/Desktop/pipeline/GC_NGS_PIPELINE"
+yaml_pipeline = os.path.join(main_dir, "annotation_resources.yaml")
+annotations_dir = "/home/ocanal/ANN_DIR"
+genome_v = "hg19"
+
 
 parser = argparse.ArgumentParser(description="Program that automatically detects if there is a new version of different vep-related databases.")
-parser.add_argument("--CADD", required=False, action="store_true", help="Detect if a new release of CADD exists")
-parser.add_argument("--vep", required=False, action="store_true", help="Detect if new release of vep exists" )
-parser.add_argument("--clinvar", required=False, action="store_true", help="Detect if new release of clinvar already exists")
-parser.add_argument("--spliceai", required=False, action="store_true", help="Detect new releases of spliceAI")
-parser.add_argument("--civic", required=False, action="store_true", help="Download civic nightly release file and compare with pipeline version, if nightly release file is different from the pipeline version, the yaml will point to the nightly file downloaded.")
-parser.add_argument("--dbnsfp", required=False, action="store_true", help="Detect new versions of dbNSFP.")
-parser.add_argument("--gnomad", required=False, action="store_true", help="Detect if a new version of gnomad has been released")
-parser.add_argument("--force", action="store_true", help="Download files without user input" )
+parser.add_argument(
+    "--CADD",
+    required=False,
+    action="store_true",
+    help="Detect new CADD release"
+)
+parser.add_argument(
+    "--vep",
+    required=False,
+    action="store_true",
+    help="Detect new vep release"
+)
+parser.add_argument(
+    "--clinvar",
+    required=False,
+    action="store_true",
+    help="Detect new clinvar release"
+)
+parser.add_argument(
+    "--spliceai",
+    required=False,
+    action="store_true",
+    help="Detect new releases of spliceAI"
+)
+parser.add_argument(
+    "--civic",
+    required=False,
+    action="store_true",
+    help="Download civic nightly release file and compare with pipeline version, if nightly release file is different from the pipeline version, the yaml will point to the nightly file downloaded."
+)
+parser.add_argument(
+    "--dbnsfp",
+    required=False,
+    action="store_true",
+    help="Detect new dbNSFP release."
+)
+parser.add_argument(
+    "--gnomad",
+    required=False,
+    action="store_true",
+    help="Detect new gnomad release"
+)
+parser.add_argument(
+    "--all",
+    required=False,
+    action="store_true",
+    help="Activates all database flags"
+)
+parser.add_argument(
+    "--add_email",
+    required=False,
+    action="store",
+    nargs="+",
+    help="Emails to send notifications on new database releases e.g.(--add_email ocanal@example.com) will send an email to ocanal@example.com when the script run finishes."
+)
+parser.add_argument(
+    "--force",
+    required=False,
+    action="store_true",
+    help="Download database files without user input"
+)
+parser.add_argument(
+    "--no_install",
+    required=False,
+    action="store_true",
+    help="Don't install any database file"
+)
 args = parser.parse_args()
 
+if args.all:
+    args.CADD = True
+    args.vep = True 
+    args.clinvar = True
+    args.spliceai = True
+    args.civic = True
+    args.dbnsfp = True
+    args.gnomad = True
 
 # def send_slack(message: str):
 #     client = WebClient(token="xoxb-5028238476320-5001657632341-yddZjBNRkBEZkoKp0I6dLSHh")
@@ -46,6 +117,8 @@ def get_logging():
     )
     return (logging)
 
+logging = get_logging()
+
 def get_y_n_from_user(prompt):
     """
     Getting the user response to determine if a database have to be updated or not.
@@ -59,33 +132,21 @@ def get_y_n_from_user(prompt):
         True: if --force is given as command line option or if user input is y
         False: if user input is n
     """
+    if args.force and args.no_install:
+        msg = "Incompatible flags! Force and no_install flags are incompatible. Read documentation!"
+        raise (ValueError(msg))
     if args.force:
-        return (True)
+        return True
+    if args.no_install:
+        return False
     while True:
         answer = input(prompt).strip().lower()
-        if answer == "y":
+        if answer == "y" or answer == "yes":
             return True
-        elif answer == "n":
+        elif answer == "n" or answer == "no":
             return False
         else:
             print("Invalid input. Please enter y or n")
 
-def get_last_yaml_file(directory="/home/ocanal/ANN_DIR/yaml/hg19"):
-    last_version = 0
-    for file in os.listdir(directory):
-        if file.endswith(".yaml"):
-            pattern = r"v(\d+.\d+).yaml"
-            match = float(re.findall(pattern, file)[0])
-            print(f"match = {match}")
-            if match > last_version:
-                last_version = match
-            print (f"match = {match}")
-    last_file = f"{directory}/annotations_resources_v{last_version}.yaml"
-    print(f"last version = {last_version}")
-    return (last_file)
 
-yaml_file = get_last_yaml_file()
 
-annotations_dir = "/home/ocanal/ANN_DIR"
-
-logging = get_logging()

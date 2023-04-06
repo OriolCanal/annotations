@@ -34,9 +34,7 @@ class DbNSFP:
         version_dates = []
         if matches:
             for match in matches:
-                print(f"match = {match}")
                 date = match.replace(",","").split()
-                print(f"date = {date}")
                 year, month, day = date[2], date[0], date[1]
                 if len(month) == 3:
                     try:
@@ -60,7 +58,6 @@ class DbNSFP:
             last_release_date: date of the last release
             """
         version_dates = self.get_dbnsfp_versions()
-        print(f"version_dates = {version_dates}")
         last_release_date = 0
         for date in version_dates:
             if date > last_release_date:
@@ -140,6 +137,5 @@ if "__main__" == __name__:
     last_version_date = dbnsfp_class.get_last_version_date()
     last_update_date = dbnsfp_class.get_last_update_date()
     releases = dbnsfp_class.get_dbnsfp_releases()
-    print(f"releases : {releases}")
     # print(f"{last_version_date = }")
     # print(f"{last_update_date = }")
